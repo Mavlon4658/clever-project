@@ -1,0 +1,17 @@
+/* Nagel Regular */
+@font-face {
+    font-family: 'Nagel';
+    src: url('./Nagel_Regular.woff') format('woff'),
+        url('./Nagel_Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Nagel Medium */
+@font-face {
+    font-family: 'Nagel';
+    src: url('./Nagel_Medium.woff') format('woff'),
+        url('./Nagel_Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}

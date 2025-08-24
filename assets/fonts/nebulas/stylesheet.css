@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-Black.eot');
+    src: local('Nebulas Black'), local('Nebulas-Black'),
+        url('Nebulas-Black.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-Black.woff2') format('woff2'),
+        url('Nebulas-Black.woff') format('woff'),
+        url('Nebulas-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-SemiBold.eot');
+    src: local('Nebulas Semi Bold'), local('Nebulas-SemiBold'),
+        url('Nebulas-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-SemiBold.woff2') format('woff2'),
+        url('Nebulas-SemiBold.woff') format('woff'),
+        url('Nebulas-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-Regular.eot');
+    src: local('Nebulas Regular'), local('Nebulas-Regular'),
+        url('Nebulas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-Regular.woff2') format('woff2'),
+        url('Nebulas-Regular.woff') format('woff'),
+        url('Nebulas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-ExtraBold.eot');
+    src: local('Nebulas Extra Bold'), local('Nebulas-ExtraBold'),
+        url('Nebulas-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-ExtraBold.woff2') format('woff2'),
+        url('Nebulas-ExtraBold.woff') format('woff'),
+        url('Nebulas-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-Medium.eot');
+    src: local('Nebulas Medium'), local('Nebulas-Medium'),
+        url('Nebulas-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-Medium.woff2') format('woff2'),
+        url('Nebulas-Medium.woff') format('woff'),
+        url('Nebulas-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nebulas';
+    src: url('Nebulas-Bold.eot');
+    src: local('Nebulas Bold'), local('Nebulas-Bold'),
+        url('Nebulas-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nebulas-Bold.woff2') format('woff2'),
+        url('Nebulas-Bold.woff') format('woff'),
+        url('Nebulas-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

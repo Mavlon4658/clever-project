@@ -1,0 +1,147 @@
+// Fonts
+$font-helvetica-neue: "HelveticaNeue", sans-serif;
+$font-nagel: "Nagel", sans-serif;
+$font-nebulas: "Nebulas", sans-serif;
+$font-sf-compact-text: "SF Compact Display", sans-serif;
+$font-sf-pro-display: "SF Pro Display", sans-serif;
+$font-sf-pro-text: "SFProText", sans-serif;
+// Fonts end
+
+// Colors
+$color-main-accent: #9dff73;
+$color-main-dark: #282828;
+$color-main-light: #e7e7e7;
+$color-main-link: #367df0;
+$color-main-link-12: #458cff;
+$color-buttons-primary-accent-default: #9dff73;
+$color-buttons-primary-accent-disabled: #568742;
+$color-buttons-primary-accent-hover-pressed: #adff89;
+$color-buttons-light-neutral-default: #282828;
+$color-buttons-light-neutral-disabled: #949494;
+$color-buttons-light-neutral-hover-pressed: #353535;
+$color-buttons-light-secondary-default: rgba(102, 110, 136, 8%);
+$color-buttons-light-secondary-disabled: rgba(102, 110, 136, 6%);
+$color-buttons-light-secondary-hover-pressed: rgba(102, 110, 136, 4%);
+$color-buttons-dark-neutral-default: #e7e7e7;
+$color-buttons-dark-neutral-disabled: #7b7b7c;
+$color-buttons-dark-neutral-hover-pressed: #e1e1e1;
+$color-buttons-dark-secondary-default: #e7e7e7;
+$color-buttons-dark-secondary-disabled: #e7e7e7;
+$color-buttons-dark-secondary-hover-pressed: #e7e7e7;
+$color-additional-gray-white: #ffffff;
+$color-additional-gray-100: #f8f9fa;
+$color-additional-gray-200: #e9ecef;
+$color-additional-gray-300: #dee2e6;
+$color-additional-gray-400: #ced4da;
+$color-additional-gray-500: #adb5bd;
+$color-additional-gray-600: #6c757d;
+$color-additional-gray-700: #495057;
+$color-additional-gray-800: #343a40;
+$color-additional-gray-900: #212529;
+$color-additional-gray-black: #000000;
+$color-additional-blue-100: #e7f1ff;
+$color-additional-blue-200: #9ec5fe;
+$color-additional-blue-300: #6ea8fe;
+$color-additional-blue-400: #3d8bfd;
+$color-additional-blue-500: #0d6efd;
+$color-additional-blue-600: #0a58ca;
+$color-additional-blue-700: #084298;
+$color-additional-blue-800: #052c65;
+$color-additional-blue-900: #031633;
+$color-additional-indigo-100: #e0cffc;
+$color-additional-indigo-200: #c29ffa;
+$color-additional-indigo-300: #a370f7;
+$color-additional-indigo-400: #8540f5;
+$color-additional-indigo-500: #6610f2;
+$color-additional-indigo-600: #520dc2;
+$color-additional-indigo-700: #3d0a91;
+$color-additional-indigo-800: #290661;
+$color-additional-indigo-900: #140330;
+$color-additional-purple-100: #e2d9f3;
+$color-additional-purple-200: #c5b3e6;
+$color-additional-purple-300: #a98eda;
+$color-additional-purple-400: #8c68cd;
+$color-additional-purple-500: #6f42c1;
+$color-additional-purple-600: #59359a;
+$color-additional-purple-700: #432874;
+$color-additional-purple-800: #2c1a4d;
+$color-additional-purple-900: #160d27;
+$color-additional-pink-100: #f7d6e6;
+$color-additional-pink-200: #efadce;
+$color-additional-pink-300: #e685b5;
+$color-additional-pink-400: #de5c9d;
+$color-additional-pink-500: #d63384;
+$color-additional-pink-600: #ab296a;
+$color-additional-pink-700: #801f4f;
+$color-additional-pink-800: #561435;
+$color-additional-pink-900: #2b0a1a;
+$color-additional-red-100: #f8d7da;
+$color-additional-red-200: #f1aeb5;
+$color-additional-red-300: #ea868f;
+$color-additional-red-400: #e35d6a;
+$color-additional-red-500: #dc3545;
+$color-additional-red-600: #b02a37;
+$color-additional-red-700: #842029;
+$color-additional-red-800: #58151c;
+$color-additional-red-900: #2c0b0e;
+$color-additional-orange-100: #ffe5d0;
+$color-additional-orange-200: #fecba1;
+$color-additional-orange-300: #feb272;
+$color-additional-orange-400: #fd9843;
+$color-additional-orange-500: #fd7e14;
+$color-additional-orange-600: #ca6510;
+$color-additional-orange-700: #984c0c;
+$color-additional-orange-800: #653208;
+$color-additional-orange-900: #331904;
+$color-additional-yellow-100: #fff3cd;
+$color-additional-yellow-200: #ffe69c;
+$color-additional-yellow-300: #ffda6a;
+$color-additional-yellow-400: #ffcd39;
+$color-additional-yellow-500: #ffc107;
+$color-additional-yellow-600: #cc9a06;
+$color-additional-yellow-700: #997404;
+$color-additional-yellow-800: #664d03;
+$color-additional-yellow-900: #332701;
+$color-additional-green-100: #d1e7dd;
+$color-additional-green-200: #a3cfbb;
+$color-additional-green-300: #75b798;
+$color-additional-green-400: #479f76;
+$color-additional-green-500: #198754;
+$color-additional-green-600: #146c43;
+$color-additional-green-700: #0f5132;
+$color-additional-green-800: #0a3622;
+$color-additional-green-900: #051b11;
+$color-additional-teal-100: #d2f4ea;
+$color-additional-teal-200: #a6e9d5;
+$color-additional-teal-300: #79dfc1;
+$color-additional-teal-400: #4dd4ac;
+$color-additional-teal-500: #20c997;
+$color-additional-teal-600: #1aa179;
+$color-additional-teal-700: #13795b;
+$color-additional-teal-800: #0d503c;
+$color-additional-teal-900: #06281e;
+$color-additional-cyan-100: #cff4fc;
+$color-additional-cyan-200: #9eeaf9;
+$color-additional-cyan-300: #6edff6;
+$color-additional-cyan-400: #3dd5f3;
+$color-additional-cyan-500: #0dcaf0;
+$color-additional-cyan-600: #0aa2c0;
+$color-additional-cyan-700: #087990;
+$color-additional-cyan-800: #055160;
+$color-additional-cyan-900: #032830;
+// Colors end
+
+@mixin media($value) {
+    @if ($value < 0) {
+        @media screen and (min-width: calc($value * (-1)) + 'px') {
+            @content;
+        }
+
+    }
+
+    @else {
+        @media screen and (max-width: $value + 'px') {
+            @content;
+        }
+    }
+}

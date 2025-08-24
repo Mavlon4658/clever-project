@@ -1,0 +1,50 @@
+/* SF Compact Display */
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('./SFCompactDisplay-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('./SFCompactDisplay-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('./SFCompactDisplay-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* SF Compact Text */
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('./SFCompactText-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('./SFCompactText-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('./SFCompactText-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('./SFCompactText-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}

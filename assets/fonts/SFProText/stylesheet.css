@@ -1,0 +1,95 @@
+/* Regular */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Regular Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-RegularItalic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Light */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Medium */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Semibold */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Semibold Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-SemiboldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Bold */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Heavy */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-Heavy.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Heavy Italic */
+@font-face {
+    font-family: "SFProText";
+    src: url("SFProText-HeavyItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}

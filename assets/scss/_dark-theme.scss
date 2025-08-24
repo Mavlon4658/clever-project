@@ -1,0 +1,136 @@
+.dark-theme {
+    background: #0F1012;
+    color: $color-main-light;
+
+    .form {
+        &-inp {
+            border-color: $color-additional-gray-800;
+            background: rgba(0, 0, 0, 0.16);
+            color: $color-main-light;
+        }
+    
+        &-tel {
+            span {
+                border-color: $color-additional-gray-800;
+                color: $color-main-light;
+            }
+    
+            input {
+                position: relative;
+                padding: 0 20px 0 101px;
+                height: 100%;
+                left: 0;
+                font-size: 16px;
+                letter-spacing: 0.02em;
+                color: $color-additional-gray-900;
+                caret-color: #007aff;
+                
+                &::placeholder {
+                    color: $color-additional-gray-600;
+                }
+            }
+        }
+    }
+
+    // Header
+    .header-logo img {
+        display: none;
+
+        &.light-img {
+            display: block;
+        }
+
+        .btn-secondary {
+            background: rgba(225, 228, 253, 0.06);
+        }
+    }
+    // Header end
+
+    .btn {
+        &-secondary {
+            color: $color-main-light;
+
+            svg path {
+                stroke: $color-main-light;
+            }
+        }
+
+        &-neutral {
+            background: $color-main-light;
+            color: $color-main-dark;
+
+            &:hover, &:active {
+                background: $color-buttons-dark-neutral-hover-pressed;
+            }
+
+            &.disabled {
+                background: $color-buttons-dark-neutral-disabled;
+                color: $color-additional-gray-800;
+            }
+        }
+
+        &-space {
+            &:hover, &:active {
+                color: $color-additional-gray-500;
+
+                svg path {
+                    fill: $color-additional-gray-500;
+                }
+            }
+
+            &.disabled {
+                background: $color-additional-gray-800;
+            }
+        }
+    }
+
+    // Home
+    .home {
+        &-title {
+            color: $color-main-light;
+        }
+
+        .main-img {
+            display: none;
+
+            &.light-img {
+                display: block;
+            }
+        }
+    }
+    // Home end
+
+    // Auth
+    .auth {
+        &-title {
+            color: $color-main-light;
+        }
+
+        p {
+            color: $color-additional-gray-500;
+        }
+    }
+    // Auth end
+
+    // Anons
+    .anons {
+        .swiper-slide {
+            &:not(.swiper-slide-active) {
+                height: 0;
+                overflow: hidden;
+            }
+        }
+
+        h2 {
+            color: $color-main-light;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 137%;
+            letter-spacing: 0.02em;
+            color: $color-additional-gray-600;
+        }
+    }
+    // Anons end
+}
