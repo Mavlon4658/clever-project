@@ -14,7 +14,7 @@ button, input, textarea, li, div {
 }
 
 .container {
-    max-width: 402px;
+    max-width: 100%;
     padding: 0 16px;
 }
 
@@ -25,7 +25,6 @@ button, input, textarea, li, div {
 // Header
 .header {
     flex-shrink: 0;
-    padding-bottom: 24px;
 
     .light-img {
         display: none;
@@ -39,20 +38,14 @@ button, input, textarea, li, div {
 
 .btn {
     &-primary {
-        width: 100%;
+        background: $color-buttons-primary-accent-default;
+        color: $color-additional-gray-black;
         height: 52px;
         border-radius: 18px;
-        background: $color-buttons-primary-accent-default;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        cursor: pointer;
-        font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.04em;
-        color: $color-additional-gray-black;
         transition: .2s ease-in-out all;
+        cursor: pointer;
         
         &:hover, &:active {
             background: $color-buttons-primary-accent-hover-pressed;
@@ -80,14 +73,9 @@ button, input, textarea, li, div {
         border-radius: 18px;
         padding: 0 20px;
         height: 52px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: $color-buttons-light-secondary-default;
-        font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.04em;
+        background: $color-buttons-light-secondary-default;
         color: $color-main-dark;
         transition: .2 ease-in-out all;
         
@@ -117,17 +105,12 @@ button, input, textarea, li, div {
     }
 
     &-space {
-        width: 100%;
         height: 48px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-        font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.04em;
         color: $color-additional-gray-600;
         transition: .2s ease-in-out all;
+        cursor: pointer;
 
         svg path {
             transition: .2s ease-in-out all;
@@ -156,16 +139,15 @@ button, input, textarea, li, div {
     }
 
     &-neutral {
-        width: 100%;
         border-radius: 18px;
         padding: 0 20px;
         height: 52px;
         background: $color-main-dark;
-        font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.04em;
         color: $color-main-light;
         transition: .2s ease-in-out all;
+        cursor: pointer;
 
         &:hover, &:active {
             background: $color-buttons-light-neutral-hover-pressed;
@@ -191,11 +173,8 @@ button, input, textarea, li, div {
     &-inp {
         border: 1px solid $color-additional-gray-200;
         border-radius: 18px;
-        padding: 0 24px;
         height: 48px;
         background: #f9f9f9;
-        font-weight: 400;
-        font-size: 16px;
         letter-spacing: 0.02em;
         color: $color-main-dark;
         caret-color: #007aff;
@@ -213,14 +192,8 @@ button, input, textarea, li, div {
         padding: 0;
 
         span {
-            position: absolute;
-            gap: 8px;
             top: 7px;
             left: 23px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
             line-height: 20px;
             letter-spacing: 0.02em;
             color: $color-additional-gray-900;
@@ -237,11 +210,7 @@ button, input, textarea, li, div {
         }
 
         input {
-            position: relative;
             padding: 0 20px 0 101px;
-            height: 100%;
-            left: 0;
-            font-size: 16px;
             letter-spacing: 0.02em;
             color: $color-additional-gray-900;
             caret-color: #007aff;
@@ -265,11 +234,8 @@ button, input, textarea, li, div {
 
 // Home
 .home {
-    height: 100%;
-
     .container {
         z-index: 1;
-        height: 100%;
     }
 
     &-title {
@@ -318,7 +284,6 @@ button, input, textarea, li, div {
     }
 
     p {
-        font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.02em;
         color: $color-additional-gray-600;
@@ -343,6 +308,12 @@ button, input, textarea, li, div {
         }
     }
 
+    img {
+        &.dark-img {
+            display: none;
+        }
+    }
+
     h2 {
         font-family: $font-nagel;
         font-weight: 500;
@@ -361,16 +332,10 @@ button, input, textarea, li, div {
 // Anons end
 
 .swp-pagination {
-    position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
     width: calc(100% - 32px);
-    max-width: 370px;
-    gap: 8px;
-    display: flex;
-    align-items: center;
 
     span {
         border-radius: 10px;

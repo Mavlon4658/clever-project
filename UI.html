@@ -33,10 +33,10 @@
                 <div class="card-body">
                     <h5 class="card-title mb-2">primary button</h5>
                     <div class="d-flex flex-column row-gap-2">
-                        <button class="btn-primary">btn-primary</button>
-                        <button class="btn-primary disabled">btn-primary disabled</button>
-                        <button class="btn-primary md">btn-primary md</button>
-                        <button class="btn-primary sm">btn-primary sm</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center btn-primary">btn-primary</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center btn-primary disabled">btn-primary disabled</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center btn-primary md">btn-primary md</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center btn-primary sm">btn-primary sm</button>
                     </div>
                 </div>
             </div>
@@ -44,10 +44,10 @@
                 <div class="card-body">
                     <h5 class="card-title mb-2">secondary button</h5>
                     <div class="d-flex flex-column row-gap-2">
-                        <button class="btn-secondary">btn-secondary</button>
-                        <button class="btn-secondary disabled">btn-secondary disabled</button>
-                        <button class="btn-secondary md">btn-secondary md</button>
-                        <button class="btn-secondary sm">btn-secondary sm</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary">btn-secondary</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary disabled">btn-secondary disabled</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">btn-secondary md</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary sm">btn-secondary sm</button>
                     </div>
                 </div>
             </div>
@@ -55,10 +55,10 @@
                 <div class="card-body">
                     <h5 class="card-title mb-2">space button</h5>
                     <div class="d-flex flex-column row-gap-2">
-                        <button class="btn-space">btn-space</button>
-                        <button class="btn-space disabled">btn-space disabled</button>
-                        <button class="btn-space md">btn-space md</button>
-                        <button class="btn-space sm">btn-space sm</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center gap-3 btn-space">btn-space</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center gap-3 btn-space disabled">btn-space disabled</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center gap-3 btn-space md">btn-space md</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center gap-3 btn-space sm">btn-space sm</button>
                     </div>
                 </div>
             </div>
@@ -66,10 +66,25 @@
                 <div class="card-body">
                     <h5 class="card-title mb-2">neutral button</h5>
                     <div class="d-flex flex-column row-gap-2">
-                        <button class="btn-neutral">btn-neutral</button>
-                        <button class="btn-neutral disabled">btn-neutral disabled</button>
-                        <button class="btn-neutral md">btn-neutral md</button>
-                        <button class="btn-neutral sm">btn-neutral sm</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">btn-neutral</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral disabled">btn-neutral disabled</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral md">btn-neutral md</button>
+                        <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral sm">btn-neutral sm</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title mb-2">Inputs</h5>
+                    <div class="d-flex flex-column row-gap-2">
+                        <input type="text" class="px-4 fs-6 form-inp" placeholder="Email или номер телефона">
+                        <div class="position-relative form-tel">
+                            <span class="position-absolute gap-2 d-flex align-items-center justify-content-center fs-6">
+                                <img src="../assets/images/flag-ru.svg" alt="">
+                                +7
+                            </span>
+                            <input type="tel" class="position-relative h-100 start-0 top-0 fs-6" placeholder="(000) 000-00-00" inputmode="numeric" pattern="[0-9]*">
+                        </div>
                     </div>
                 </div>
             </div>

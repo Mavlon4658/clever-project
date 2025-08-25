@@ -121,6 +121,14 @@
             }
         }
 
+        img {
+            display: none;
+
+            &.dark-img {
+                display: block;
+            }
+        }
+
         h2 {
             color: $color-main-light;
         }

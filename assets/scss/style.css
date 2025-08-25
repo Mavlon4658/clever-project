@@ -81,7 +81,7 @@ button, input, textarea, li, div {
 }
 
 .container {
-  max-width: 402px;
+  max-width: 100%;
   padding: 0 16px;
 }
 
@@ -91,7 +91,6 @@ button, input, textarea, li, div {
 
 .header {
   flex-shrink: 0;
-  padding-bottom: 24px;
 }
 .header .light-img {
   display: none;
@@ -102,20 +101,14 @@ button, input, textarea, li, div {
 }
 
 .btn-primary {
-  width: 100%;
+  background: #9dff73;
+  color: #000000;
   height: 52px;
   border-radius: 18px;
-  background: #9dff73;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  cursor: pointer;
-  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
-  color: #000000;
   transition: 0.2s ease-in-out all;
+  cursor: pointer;
 }
 .btn-primary:hover, .btn-primary:active {
   background: #adff89;
@@ -138,14 +131,9 @@ button, input, textarea, li, div {
   border-radius: 18px;
   padding: 0 20px;
   height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: rgba(102, 110, 136, 0.08);
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.04em;
+  background: rgba(102, 110, 136, 0.08);
   color: #282828;
   transition: 0.2 ease-in-out all;
 }
@@ -170,17 +158,12 @@ button, input, textarea, li, div {
   pointer-events: none;
 }
 .btn-space {
-  width: 100%;
   height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #6c757d;
   transition: 0.2s ease-in-out all;
+  cursor: pointer;
 }
 .btn-space svg path {
   transition: 0.2s ease-in-out all;
@@ -203,16 +186,15 @@ button, input, textarea, li, div {
   fill: #495057;
 }
 .btn-neutral {
-  width: 100%;
   border-radius: 18px;
   padding: 0 20px;
   height: 52px;
   background: #282828;
-  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #e7e7e7;
   transition: 0.2s ease-in-out all;
+  cursor: pointer;
 }
 .btn-neutral:hover, .btn-neutral:active {
   background: #353535;
@@ -232,11 +214,8 @@ button, input, textarea, li, div {
 .form-inp, .form-tel {
   border: 1px solid #e9ecef;
   border-radius: 18px;
-  padding: 0 24px;
   height: 48px;
   background: #f9f9f9;
-  font-weight: 400;
-  font-size: 16px;
   letter-spacing: 0.02em;
   color: #282828;
   caret-color: #007aff;
@@ -254,14 +233,8 @@ button, input, textarea, li, div {
   padding: 0;
 }
 .form-tel span {
-  position: absolute;
-  gap: 8px;
   top: 7px;
   left: 23px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #212529;
@@ -276,11 +249,7 @@ button, input, textarea, li, div {
   border-radius: 50%;
 }
 .form-tel input {
-  position: relative;
   padding: 0 20px 0 101px;
-  height: 100%;
-  left: 0;
-  font-size: 16px;
   letter-spacing: 0.02em;
   color: #212529;
   caret-color: #007aff;
@@ -298,12 +267,8 @@ button, input, textarea, li, div {
   padding: 0;
 }
 
-.home {
-  height: 100%;
-}
 .home .container {
   z-index: 1;
-  height: 100%;
 }
 .home-title {
   font-family: "Nagel", sans-serif;
@@ -341,7 +306,6 @@ button, input, textarea, li, div {
   color: #2d2d2d;
 }
 .auth p {
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #6c757d;
@@ -356,6 +320,9 @@ button, input, textarea, li, div {
 .anons .swiper-slide:not(.swiper-slide-active) {
   height: 0;
   overflow: hidden;
+}
+.anons img.dark-img {
+  display: none;
 }
 .anons h2 {
   font-family: "Nagel", sans-serif;
@@ -372,16 +339,10 @@ button, input, textarea, li, div {
 }
 
 .swp-pagination {
-  position: absolute;
-  top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   width: calc(100% - 32px);
-  max-width: 370px;
-  gap: 8px;
-  display: flex;
-  align-items: center;
 }
 .swp-pagination span {
   border-radius: 10px;
@@ -476,6 +437,12 @@ button, input, textarea, li, div {
 .dark-theme .anons .swiper-slide:not(.swiper-slide-active) {
   height: 0;
   overflow: hidden;
+}
+.dark-theme .anons img {
+  display: none;
+}
+.dark-theme .anons img.dark-img {
+  display: block;
 }
 .dark-theme .anons h2 {
   color: #e7e7e7;
