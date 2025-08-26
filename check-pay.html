@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Пополнить проверки</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Check AML -->
+        <section class="check-aml h-full d-flex">
+            <div class="container h-full d-flex flex-column justify-content-between pt-3 gap-2">
+                <div class="d-flex flex-column gap-3">
+                    <div class="alert-gray d-flex align-items-center">
+                        <img src="./assets/images/warning-gray.svg" class="flex-shrink-0" alt="">
+                        <img src="./assets/images/warning-gray-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                        <p>Выберите кошелек для проверки AML</p>
+                    </div>
+                    <ul class="d-flex flex-column gap-3">
+                        <li class="pay-card overflow-hidden position-relative d-flex align-items-start justify-content-between">
+                            <input type="radio" checked name="pay" class="position-absolute start-0 top-0 w-100 h-100" id="">
+                            <div class="pay-card__left d-flex align-items-start">
+                                <img src="./assets/images/pay-doc.svg" class="flex-shrink-0" alt="">
+                                <img src="./assets/images/pay-doc-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                                <div>
+                                    <h3 class="d-flex align-items-end gap-2 fw-medium lh-1">
+                                        5
+                                        <span class="fs-6 fw-normal">проверок</span>
+                                    </h3>
+                                    <div class="price d-flex align-items-center gap-2 fs-6 fw-medium">
+                                        <del class="fw-normal">140 ₽</del>
+                                        <span>100 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon d-flex align-items-center justify-content-center rounded-pill">
+                                <span class="rounded-pill"></span>
+                            </div>
+                        </li>
+                        <li class="pay-card overflow-hidden position-relative d-flex align-items-start justify-content-between">
+                            <input type="radio" name="pay" class="position-absolute start-0 top-0 w-100 h-100" id="">
+                            <div class="pay-card__left d-flex align-items-start">
+                                <img src="./assets/images/pay-doc.svg" class="flex-shrink-0" alt="">
+                                <img src="./assets/images/pay-doc-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                                <div>
+                                    <h3 class="d-flex align-items-end gap-2 fw-medium lh-1">
+                                        10
+                                        <span class="fs-6 fw-normal">проверок</span>
+                                    </h3>
+                                    <div class="price d-flex align-items-center gap-2 fs-6 fw-medium">
+                                        <del class="fw-normal">1 440 ₽</del>
+                                        <span>1 000 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon d-flex align-items-center justify-content-center rounded-pill">
+                                <span class="rounded-pill"></span>
+                            </div>
+                        </li>
+                        <li class="pay-card overflow-hidden position-relative d-flex align-items-start justify-content-between">
+                            <input type="radio" name="pay" class="position-absolute start-0 top-0 w-100 h-100" id="">
+                            <div class="pay-card__left d-flex align-items-start">
+                                <img src="./assets/images/pay-doc.svg" class="flex-shrink-0" alt="">
+                                <img src="./assets/images/pay-doc-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                                <div>
+                                    <h3 class="d-flex align-items-end gap-2 fw-medium lh-1">
+                                        20
+                                        <span class="fs-6 fw-normal">проверок</span>
+                                    </h3>
+                                    <div class="price d-flex align-items-center gap-2 fs-6 fw-medium">
+                                        <del class="fw-normal">3 000 ₽</del>
+                                        <span>2 400 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon d-flex align-items-center justify-content-center rounded-pill">
+                                <span class="rounded-pill"></span>
+                            </div>
+                        </li>
+                        <li class="pay-card overflow-hidden position-relative d-flex align-items-start justify-content-between">
+                            <input type="radio" name="pay" class="position-absolute start-0 top-0 w-100 h-100" id="">
+                            <div class="pay-card__left d-flex align-items-start">
+                                <img src="./assets/images/pay-doc.svg" class="flex-shrink-0" alt="">
+                                <img src="./assets/images/pay-doc-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                                <div>
+                                    <h3 class="d-flex align-items-end gap-2 fw-medium lh-1">
+                                        50
+                                        <span class="fs-6 fw-normal">проверок</span>
+                                    </h3>
+                                    <div class="price d-flex align-items-center gap-2 fs-6 fw-medium">
+                                        <del class="fw-normal">5 400 ₽</del>
+                                        <span>4 800 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon d-flex align-items-center justify-content-center rounded-pill">
+                                <span class="rounded-pill"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-primary">Выбрать и оплатить</button>
+            </div>
+        </section>
+        <!-- Check AML end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

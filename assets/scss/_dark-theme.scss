@@ -16,13 +16,7 @@
             }
     
             input {
-                position: relative;
-                padding: 0 20px 0 101px;
-                height: 100%;
-                left: 0;
-                font-size: 16px;
-                letter-spacing: 0.02em;
-                color: $color-additional-gray-900;
+                color: $color-main-light;
                 caret-color: #007aff;
                 
                 &::placeholder {
@@ -30,18 +24,57 @@
                 }
             }
         }
+
+        &-price {
+            background: rgba(255, 255, 255, 0.04);
+        
+            input {
+                color: $color-main-light;
+        
+                &::placeholder {
+                    color: $color-additional-gray-600;
+                }
+            }
+        
+            p {
+                border-color: $color-additional-gray-800;
+                color: $color-main-light;
+            }
+        }
     }
 
     // Header
-    .header-logo img {
-        display: none;
-
-        &.light-img {
-            display: block;
+    .header {
+        &-logo img {
+            display: none;
+    
+            &.light-img {
+                display: block;
+            }
+    
+            .btn-secondary {
+                background: rgba(225, 228, 253, 0.06);
+            }
         }
 
-        .btn-secondary {
-            background: rgba(225, 228, 253, 0.06);
+        &.main-header {
+            border-color: $color-additional-gray-900;
+        }
+
+        h2 {
+            color: $color-main-light;
+        }
+
+        &-btn {
+            background: rgba(255, 255, 255, 4%);
+
+            img {
+                display: none;
+
+                &.dark-img {
+                    display: block;
+                }
+            }
         }
     }
     // Header end
@@ -141,4 +174,551 @@
         }
     }
     // Anons end
+
+    .navs {
+        background: rgba(32, 32, 32, 0.95) !important;
+        border-color: $color-additional-gray-900;
+        backdrop-filter: blur(5px);
+
+        &-link {
+            color: $color-additional-gray-500;
+
+            .icon {
+                img {
+                    display: none;
+                    
+                    &.dark-icon {
+                        display: block;
+                    }
+                }
+            }
+
+            &.active, &:hover {
+                color: $color-main-link;
+
+                .icon {
+                    img {
+                        display: none;
+
+                        &.dark-icon {
+                            display: none;
+                        }
+
+                        &.active-icon {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-page {
+        z-index: 1;
+    
+        .circle {
+            border-radius: 100%;
+            background: radial-gradient(70.96% 68.53% at 79.71% 66.24%, rgb(127, 255, 71) 20.000000298023224%, rgb(249, 255, 32) 55.000001192092896%, rgb(255, 218, 192) 80.0000011920929%, rgb(252, 118, 227) 100%);
+            filter: blur(65px);
+            opacity: 0.3;
+        }
+    
+        .overal-balance {
+            p {
+                color: $color-additional-gray-500;
+            }
+    
+            h3 {
+                color: $color-main-light;
+            }
+        }
+    
+        .navigation {
+            a {
+                color: $color-main-light;
+                
+                .icon {
+                    height: 54px;
+                    border-radius: 18px;
+                    background: rgba(255, 255, 255, 0.04);
+
+                    svg {
+                        display: none;
+
+                        &:nth-child(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    .swiper-pagination {
+        span {
+            background: rgba(255, 255, 255, 0.25);
+
+            &.swiper-pagination-bullet-active {
+                background: $color-main-light;
+            }
+        }
+    }
+
+    .alert-white {
+        background: #0f1012;
+        border-color: $color-additional-gray-800;
+
+        .main-img {
+            display: none;
+
+            &.dark-icon {
+                display: block;
+            }
+        }
+    
+        h3 {
+            color: $color-main-light;
+        }
+    
+        .btn-secondary {
+            background: $color-buttons-dark-secondary-default;
+
+            svg path {
+                stroke: $color-additional-gray-600;
+            }
+        }
+    }
+
+    .my-wallet {
+        background: #0f1012;
+    
+        h2 {
+            color: $color-main-light;
+        }
+    }
+
+    .operation-month {
+        background: rgba(255, 255, 255, 0.04);
+    
+        h3 {
+            color: $color-main-light;
+        }
+    
+        &__right {
+            padding-left: 12px;
+        }
+
+        a {
+            svg {
+                rect {
+                    fill: $color-main-light;
+                }
+
+                path {
+                    fill: $color-main-dark;
+                }
+            }
+        }
+    }
+
+    .clever-card {
+        background: rgba(255, 255, 255, 0.04);
+    
+        .icon {
+            background: radial-gradient(70.96% 68.53% at 79.71% 66.24%, rgb(127, 255, 71) 20.000000298023224%, rgb(249, 255, 32) 55.000001192092896%, rgb(255, 218, 192) 80.0000011920929%, rgb(252, 118, 227) 100%);
+            filter: blur(54.5px);
+            width: 245px;
+            height: 159px;
+            opacity: 0.13;
+        }
+    
+        h3 {
+            color: $color-main-light;
+        }
+    
+        h4 {
+            color: $color-main-light;
+        }
+    }
+
+    .crypto {
+        &-card {
+            h3 {
+                color: $color-main-light;
+            }
+    
+            h4 {
+                color: $color-main-light;
+            }
+        }
+    }
+
+    .wallet {
+        .circle {
+            background: radial-gradient(70.96% 68.53% at 79.71% 66.24%, rgb(127, 255, 71) 20.000000298023224%, rgb(249, 255, 32) 55.000001192092896%, rgb(255, 218, 192) 80.0000011920929%, rgb(252, 118, 227) 100%);
+            filter: blur(65px);
+            width: 456px;
+            min-width: 456px;
+            height: 465px;
+            top: 156px;
+            transform: translateX(calc(-50% + 5px)) rotateZ(0deg);
+            opacity: 0.3;
+        }
+    
+        &-card {
+            h2 {
+                color: $color-main-light;
+                
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+        }
+    
+        .navigation {
+            background: rgba(15, 16, 18, 0.85);
+    
+            a {
+                color: $color-additional-gray-500;
+                
+                .icon {
+                    background: rgba(255, 255, 255, 0.04);
+    
+                    svg {
+                        display: none;
+
+                        &:nth-child(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .alert-gray {
+        color: $color-additional-gray-500;
+        background: rgba(255, 255, 255, 0.04);
+    }
+    
+    .transactions {
+        background: #0f1012;
+    
+        h2 {
+            color: $color-main-light;
+        }
+    
+        &-navs {
+            a {
+                color: $color-main-light;
+                background: rgba(255, 255, 255, 0.04);
+    
+                &.active, &:hover {
+                    background: $color-main-light;
+                    color: $color-main-dark;
+                }
+            }
+        }
+    
+        &-card {
+            .icon {
+                background: rgba(255, 255, 255, 0.04);
+    
+                img {
+                    display: none;
+
+                    &.dark-img {
+                        display: block;
+                    }
+                }
+
+                svg path {
+                    fill: $color-additional-gray-500;
+                }
+            }
+    
+            h3 {
+                color: $color-main-light;
+            }
+    
+            h4 {
+                color: $color-main-light;
+            }
+    
+            &.input {
+                .icon {
+                    svg {
+                        path {
+                            fill: $color-additional-teal-600;
+                        }
+                    }
+                }
+    
+                h4 {
+                    color: $color-additional-teal-600;
+                }
+            }
+        }
+    }
+
+    .funds {
+        &-card {
+            background: rgba(255, 255, 255, 0.04);
+    
+            h3 {
+                color: $color-main-light;
+                
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+    
+            h2 {
+                color: $color-main-light;
+    
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+        }
+    
+        .swiper-pagination {
+            margin-top: 12px;
+        }
+
+        .form-tel {
+            background: rgba(255, 255, 255, 0.04);
+            border: 0;
+        }
+    
+        .transfer-amount {
+            li {
+                background: rgba(255, 255, 255, 0.04);
+                color: $color-main-light;
+            }
+
+            svg {
+                display: none;
+
+                &:nth-child(2) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .withdraw {
+        .container {
+            gap: 20px;
+        }
+    
+        h3 {
+            color: $color-main-light;
+            
+            span {
+                color: $color-additional-gray-600;
+            }
+        }
+    
+        .navigation {
+            a {
+                color: $color-additional-gray-600;
+                
+                .icon {
+                    height: 54px;
+                    border-radius: 18px;
+                    background: rgba(255, 255, 255, 0.04);
+
+                    svg {
+                        display: none;
+
+                        &:nth-child(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .alert-warning {
+        img {
+            display: none;
+
+            &.dark-img {
+                display: block;
+            }
+        }
+
+        p {
+            color: $color-additional-yellow-500;
+        }
+    }
+
+    .check-aml {
+        .alert-gray {
+            background: rgba(255, 255, 255, 0.04), #202123;
+
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+
+            p {
+                color: $color-additional-gray-500;
+            }
+        }
+    
+        &__body {
+            background: #202123;
+    
+            p {
+                color: $color-main-light;
+            }
+    
+            .btn-neutral {
+                img {
+                    display: none;
+
+                    &.dark-icon {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    
+    .history {
+        &-check {
+            background: #202123;
+        
+            h3 {
+                color: $color-main-light;
+            }
+        }
+    
+        &-card {
+            h4 {
+                color: $color-main-light;
+    
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+    
+            p {
+                color: $color-additional-gray-600;
+            }
+    
+            b {
+                color: $color-additional-gray-600;
+            }
+    
+            svg circle:nth-child(1) {
+                stroke: $color-additional-gray-800;
+            }
+        }
+    }
+
+    .pay-card {
+        border: 1px solid $color-additional-gray-800;
+        background: #0f1012;
+    
+        img {
+            display: none;
+
+            &.dark-icon {
+                display: block;
+            }
+        }
+    
+        &__left {
+            gap: 12px;
+        }
+    
+        h3 {
+            color: $color-main-light;
+            
+            span {
+                color: $color-additional-gray-600;
+            }
+        }
+    
+        .price {
+            color: $color-main-light;
+    
+            del {
+                color: $color-additional-gray-600;
+            }
+        }
+    }
+    
+    .load-page {
+        h2 {
+            color: $color-main-light;
+        }
+    }
+
+    .check-result {
+        .guade-chart path:nth-child(1) {
+            stroke: rgba(255, 255, 255, 0.06);
+        }
+
+        .chart-text {
+            h3 {
+                color: $color-main-light;
+            }
+            
+            p {
+                color: $color-main-light;
+            }
+        }
+
+        .crypto-text {
+            b {
+                color: $color-main-light;
+            }
+        }
+    
+        .result-card {
+            background: #202123;
+            border: 0;
+
+            p {
+                gap: 12px;
+                font-size: 14px;
+                line-height: 143%;
+                letter-spacing: 0.04em;
+                color: $color-additional-gray-600;
+            }
+    
+            h3 {
+                color: $color-main-light;
+                
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+    
+            .line {
+                background: rgba(255, 255, 255, 0.06);
+    
+                &.line-green span {
+                    background: $color-additional-teal-500;
+                }
+    
+                &.line-yellow span {
+                    background: $color-additional-yellow-500;
+                }
+    
+                &.line-red span {
+                    background: $color-additional-red-500;
+                }
+            }
+        }
+    }
 }

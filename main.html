@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header main-header pb-4">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center"></div>
+                <h2 class="fw-medium fs-6 text-center">Мой кошелёк #1</h2>
+                <div class="header-right d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/settings.svg" alt="">
+                        <img src="./assets/images/settings-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Navs -->
+        <section class="navs position-fixed bottom-0 start-0 w-100 bg-white">
+            <div class="container">
+                <div class="row gx-1">
+                    <div class="col-3">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center active">
+                            <span class="icon position-relative">
+                                <img src="./assets/images/navs-icon-1.svg" alt="">
+                                <img src="./assets/images/navs-icon-1-dark.svg" alt="" class="dark-icon">
+                                <img src="./assets/images/navs-icon-1-active.svg" alt="" class="active-icon">
+                                <span class="dot position-absolute rounded-circle"></span>
+                            </span>
+                            <span>Главная</span>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center">
+                            <span class="icon position-relative">
+                                <img src="./assets/images/navs-icon-2.svg" alt="">
+                                <img src="./assets/images/navs-icon-2-dark.svg" alt="" class="dark-icon">
+                                <img src="./assets/images/navs-icon-2-active.svg" alt="" class="active-icon">
+                                <span class="dot position-absolute rounded-circle"></span>
+                            </span>
+                            <span>Платежи</span>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center">
+                            <span class="icon position-relative">
+                                <img src="./assets/images/navs-icon-3.svg" alt="">
+                                <img src="./assets/images/navs-icon-3-dark.svg" alt="" class="dark-icon">
+                                <img src="./assets/images/navs-icon-3-active.svg" alt="" class="active-icon">
+                                <span class="dot position-absolute rounded-circle"></span>
+                            </span>
+                            <span>Бизнес</span>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center">
+                            <span class="icon position-relative">
+                                <img src="./assets/images/navs-icon-4.svg" alt="">
+                                <img src="./assets/images/navs-icon-4-dark.svg" alt="" class="dark-icon">
+                                <img src="./assets/images/navs-icon-4-active.svg" alt="" class="active-icon">
+                                <span class="dot position-absolute rounded-circle"></span>
+                            </span>
+                            <span>Профиль</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navs end -->
+
+        <main>
+
+            <!-- Main page -->
+            <section class="main-page position-relative">
+                <div class="circle position-absolute"></div>
+                <div class="container">
+                    <div class="overal-balance py-4 d-flex flex-column align-items-center">
+                        <p class="fs-6 text-center">Общий баланс</p>
+                        <h3 class="fw-medium text-center">$42 482.59</h3>
+                        <div class="alert-teal py-1 px-3 d-flex align-items-center gap-2 fs-6 text-center rounded-pill">
+                            <span>+$149</span>
+                            <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.76285 0.804169C4.15918 0.371801 4.84082 0.371801 5.23715 0.804168L8.46392 4.32427C9.05187 4.96568 8.59687 6 7.72676 6H1.27324C0.403131 6 -0.0518707 4.96568 0.536081 4.32428L3.76285 0.804169Z" fill="#1AA179" />
+                            </svg>
+                            <span>4%</span>
+                        </div>
+                    </div>
+                    <div class="row gx-2 mb-4 navigation">
+                        <div class="col-3">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M14.2502 25.6668C20.6935 25.6668 25.9168 20.4435 25.9168 14.0002C25.9168 7.55684 20.6935 2.3335 14.2502 2.3335C7.80684 2.3335 2.5835 7.55684 2.5835 14.0002C2.5835 20.4435 7.80684 25.6668 14.2502 25.6668Z" fill="#282828" />
+                                        <path d="M20.0833 15.1668H8.41667C7.77267 15.1668 7.25 14.6442 7.25 14.0002C7.25 13.3562 7.77267 12.8335 8.41667 12.8335H20.0833C20.7273 12.8335 21.25 13.3562 21.25 14.0002C21.25 14.6442 20.7273 15.1668 20.0833 15.1668Z" fill="#282828" />
+                                        <path d="M13.0835 19.8333V8.16667C13.0835 7.52267 13.6062 7 14.2502 7C14.8942 7 15.4168 7.52267 15.4168 8.16667V19.8333C15.4168 20.4773 14.8942 21 14.2502 21C13.6062 21 13.0835 20.4773 13.0835 19.8333Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M14.2497 25.6673C20.693 25.6673 25.9163 20.444 25.9163 14.0007C25.9163 7.55733 20.693 2.33398 14.2497 2.33398C7.80635 2.33398 2.58301 7.55733 2.58301 14.0007C2.58301 20.444 7.80635 25.6673 14.2497 25.6673Z" fill="#E7E7E7" />
+                                        <path d="M20.0833 15.1663H8.41667C7.77267 15.1663 7.25 14.6437 7.25 13.9997C7.25 13.3557 7.77267 12.833 8.41667 12.833H20.0833C20.7273 12.833 21.25 13.3557 21.25 13.9997C21.25 14.6437 20.7273 15.1663 20.0833 15.1663Z" fill="#E7E7E7" />
+                                        <path d="M13.083 19.8333V8.16667C13.083 7.52267 13.6057 7 14.2497 7C14.8937 7 15.4163 7.52267 15.4163 8.16667V19.8333C15.4163 20.4773 14.8937 21 14.2497 21C13.6057 21 13.083 20.4773 13.083 19.8333Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Пополнить</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M14.7502 25.6668C21.1935 25.6668 26.4168 20.4435 26.4168 14.0002C26.4168 7.55684 21.1935 2.3335 14.7502 2.3335C8.30684 2.3335 3.0835 7.55684 3.0835 14.0002C3.0835 20.4435 8.30684 25.6668 14.7502 25.6668Z" fill="#282828" />
+                                        <path d="M19.4167 12.8335C19.4167 12.8335 9.32267 12.8335 8.91667 12.8335C8.27267 12.8335 7.75 13.3562 7.75 14.0002C7.75 14.6442 8.27267 15.1668 8.91667 15.1668C9.32267 15.1668 19.4167 15.1668 19.4167 15.1668V12.8335Z" fill="#282828" />
+                                        <path d="M14.75 8.1665C15.0486 8.1665 15.3473 8.28084 15.5748 8.50834L20.2415 13.175C20.6976 13.6312 20.6976 14.3685 20.2415 14.8247L15.5748 19.4913C15.1186 19.9475 14.3813 19.9475 13.9251 19.4913C13.469 19.0352 13.469 18.2978 13.9251 17.8417L17.767 13.9998L13.9251 10.158C13.469 9.70184 13.469 8.9645 13.9251 8.50834C14.1526 8.28084 14.4513 8.1665 14.75 8.1665Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M14.7497 25.6673C21.193 25.6673 26.4163 20.444 26.4163 14.0007C26.4163 7.55733 21.193 2.33398 14.7497 2.33398C8.30635 2.33398 3.08301 7.55733 3.08301 14.0007C3.08301 20.444 8.30635 25.6673 14.7497 25.6673Z" fill="#E7E7E7" />
+                                        <path d="M19.4167 12.833C19.4167 12.833 9.32267 12.833 8.91667 12.833C8.27267 12.833 7.75 13.3557 7.75 13.9997C7.75 14.6437 8.27267 15.1663 8.91667 15.1663C9.32267 15.1663 19.4167 15.1663 19.4167 15.1663V12.833Z" fill="#E7E7E7" />
+                                        <path d="M14.75 8.16699C15.0486 8.16699 15.3473 8.28133 15.5748 8.50883L20.2415 13.1755C20.6976 13.6317 20.6976 14.369 20.2415 14.8252L15.5748 19.4918C15.1186 19.948 14.3813 19.948 13.9251 19.4918C13.469 19.0357 13.469 18.2983 13.9251 17.8422L17.767 14.0003L13.9251 10.1585C13.469 9.70233 13.469 8.96499 13.9251 8.50883C14.1526 8.28133 14.4513 8.16699 14.75 8.16699Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Отправить</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M22.4168 23.3332H6.0835C4.15033 23.3332 2.5835 21.7663 2.5835 19.8332V8.1665C2.5835 6.23334 4.15033 4.6665 6.0835 4.6665H22.4168C24.35 4.6665 25.9168 6.23334 25.9168 8.1665V19.8332C25.9168 21.7663 24.35 23.3332 22.4168 23.3332Z" fill="#282828" />
+                                        <path d="M11.9168 15.1665C11.6998 15.1665 7.46716 15.1665 7.25016 15.1665C6.60616 15.1665 6.0835 15.6892 6.0835 16.3332C6.0835 16.9772 6.60616 17.4998 7.25016 17.4998C7.46716 17.4998 11.6998 17.4998 11.9168 17.4998C12.5608 17.4998 13.0835 16.9772 13.0835 16.3332C13.0835 15.6892 12.5608 15.1665 11.9168 15.1665Z" fill="#282828" />
+                                        <path d="M25.9168 9.3335H2.5835V12.8335H25.9168V9.3335Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M22.4163 23.3327H6.08301C4.14984 23.3327 2.58301 21.7658 2.58301 19.8327V8.16602C2.58301 6.23285 4.14984 4.66602 6.08301 4.66602H22.4163C24.3495 4.66602 25.9163 6.23285 25.9163 8.16602V19.8327C25.9163 21.7658 24.3495 23.3327 22.4163 23.3327Z" fill="#E7E7E7" />
+                                        <path d="M11.9163 15.166C11.6993 15.166 7.46667 15.166 7.24967 15.166C6.60567 15.166 6.08301 15.6887 6.08301 16.3327C6.08301 16.9767 6.60567 17.4993 7.24967 17.4993C7.46667 17.4993 11.6993 17.4993 11.9163 17.4993C12.5603 17.4993 13.083 16.9767 13.083 16.3327C13.083 15.6887 12.5603 15.166 11.9163 15.166Z" fill="#E7E7E7" />
+                                        <path d="M25.9163 9.33398H2.58301V12.834H25.9163V9.33398Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Вывести</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M21.6502 6.3335H7.1835C5.47126 6.3335 4.0835 7.72126 4.0835 9.4335V14.6002C4.0835 16.3124 5.47126 17.7002 7.1835 17.7002H21.6502C23.3624 17.7002 24.7502 16.3124 24.7502 14.6002V9.4335C24.7502 7.72126 23.3624 6.3335 21.6502 6.3335Z" fill="#282828" />
+                                        <path d="M14.4167 15.1166C15.2727 15.1166 15.9667 14.4226 15.9667 13.5666C15.9667 12.7106 15.2727 12.0166 14.4167 12.0166C13.5607 12.0166 12.8667 12.7106 12.8667 13.5666C12.8667 14.4226 13.5607 15.1166 14.4167 15.1166Z" fill="#282828" />
+                                        <path d="M21.6502 17.6996H7.1835C5.47126 17.6996 4.0835 16.3118 4.0835 14.5996V20.7996C4.0835 22.5118 5.47126 23.8996 7.1835 23.8996H21.6502C23.3624 23.8996 24.7502 22.5118 24.7502 20.7996V14.5996C24.7502 16.3118 23.3624 17.6996 21.6502 17.6996Z" fill="#282828" />
+                                        <path d="M15.4502 4.2666C15.072 4.2666 13.7618 4.2666 13.3836 4.2666C12.2417 4.2666 11.3169 5.19143 11.3169 6.33327H17.5169C17.5169 5.19143 16.5921 4.2666 15.4502 4.2666Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.2" d="M21.6497 6.33301H7.18301C5.47077 6.33301 4.08301 7.72077 4.08301 9.43301V14.5997C4.08301 16.3119 5.47077 17.6997 7.18301 17.6997H21.6497C23.3619 17.6997 24.7497 16.3119 24.7497 14.5997V9.43301C24.7497 7.72077 23.3619 6.33301 21.6497 6.33301Z" fill="#E7E7E7" />
+                                        <path d="M14.4162 15.1166C15.2723 15.1166 15.9662 14.4226 15.9662 13.5666C15.9662 12.7106 15.2723 12.0166 14.4162 12.0166C13.5602 12.0166 12.8662 12.7106 12.8662 13.5666C12.8662 14.4226 13.5602 15.1166 14.4162 15.1166Z" fill="#E7E7E7" />
+                                        <path d="M21.6497 17.6996H7.18301C5.47077 17.6996 4.08301 16.3118 4.08301 14.5996V20.7996C4.08301 22.5118 5.47077 23.8996 7.18301 23.8996H21.6497C23.3619 23.8996 24.7497 22.5118 24.7497 20.7996V14.5996C24.7497 16.3118 23.3619 17.6996 21.6497 17.6996Z" fill="#E7E7E7" />
+                                        <path d="M15.4497 4.2666C15.0715 4.2666 13.7613 4.2666 13.3831 4.2666C12.2412 4.2666 11.3164 5.19143 11.3164 6.33327H17.5164C17.5164 5.19143 16.5916 4.2666 15.4497 4.2666Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Сделки</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="position-relative py-2 px-3 d-flex align-items-center gap-3 alert-white">
+                                    <img src="./assets/images/alert-white-icon-1.svg" class="flex-shrink-0 main-img" alt="">
+                                    <img src="./assets/images/alert-white-icon-1-dark.svg" class="flex-shrink-0 main-img dark-icon" alt="">
+                                    <div>
+                                        <h3>Незавершенная сделка</h3>
+                                        <p>$12 492.59 • 0,106117 BTC</p>
+                                        <a href="#" class="d-inline-flex align-items-center">
+                                            <span>Перейти</span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.2391 5.29045C10.5645 4.96504 11.0921 4.96502 11.4175 5.29045L15.5378 9.41073C15.8631 9.73616 15.8631 10.2637 15.5378 10.5891L11.4175 14.7094C11.0921 15.0348 10.5645 15.0347 10.2391 14.7094C9.91367 14.384 9.91369 13.8564 10.2391 13.531L12.9368 10.8333H5.05111C4.59089 10.8333 4.21781 10.4601 4.21777 9.99992C4.21777 9.53968 4.59087 9.16659 5.05111 9.16659H12.9368L10.2391 6.46883L10.1821 6.40536C9.91514 6.07805 9.93399 5.59555 10.2391 5.29045Z" fill="#367DF0" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <button class="btn-secondary position-absolute top-0 end-0 mt-2 me-2 d-flex align-items-center justify-content-center p-0">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L9 9M9 1L1 9" stroke="#6C757D" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="position-relative py-2 px-3 d-flex align-items-center gap-3 alert-white">
+                                    <img src="./assets/images/alert-white-icon-1.svg" class="flex-shrink-0 main-img" alt="">
+                                    <img src="./assets/images/alert-white-icon-1-dark.svg" class="flex-shrink-0 main-img dark-icon" alt="">
+                                    <div>
+                                        <h3>Незавершенная сделка</h3>
+                                        <p>$12 492.59 • 0,106117 BTC</p>
+                                        <a href="#" class="d-inline-flex align-items-center">
+                                            <span>Перейти</span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.2391 5.29045C10.5645 4.96504 11.0921 4.96502 11.4175 5.29045L15.5378 9.41073C15.8631 9.73616 15.8631 10.2637 15.5378 10.5891L11.4175 14.7094C11.0921 15.0348 10.5645 15.0347 10.2391 14.7094C9.91367 14.384 9.91369 13.8564 10.2391 13.531L12.9368 10.8333H5.05111C4.59089 10.8333 4.21781 10.4601 4.21777 9.99992C4.21777 9.53968 4.59087 9.16659 5.05111 9.16659H12.9368L10.2391 6.46883L10.1821 6.40536C9.91514 6.07805 9.93399 5.59555 10.2391 5.29045Z" fill="#367DF0" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <button class="btn-secondary position-absolute top-0 end-0 mt-2 me-2 d-flex align-items-center justify-content-center p-0">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L9 9M9 1L1 9" stroke="#6C757D" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="position-relative py-2 px-3 d-flex align-items-center gap-3 alert-white">
+                                    <img src="./assets/images/alert-white-icon-1.svg" class="flex-shrink-0 main-img" alt="">
+                                    <img src="./assets/images/alert-white-icon-1-dark.svg" class="flex-shrink-0 main-img dark-icon" alt="">
+                                    <div>
+                                        <h3>Незавершенная сделка</h3>
+                                        <p>$12 492.59 • 0,106117 BTC</p>
+                                        <a href="#" class="d-inline-flex align-items-center">
+                                            <span>Перейти</span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.2391 5.29045C10.5645 4.96504 11.0921 4.96502 11.4175 5.29045L15.5378 9.41073C15.8631 9.73616 15.8631 10.2637 15.5378 10.5891L11.4175 14.7094C11.0921 15.0348 10.5645 15.0347 10.2391 14.7094C9.91367 14.384 9.91369 13.8564 10.2391 13.531L12.9368 10.8333H5.05111C4.59089 10.8333 4.21781 10.4601 4.21777 9.99992C4.21777 9.53968 4.59087 9.16659 5.05111 9.16659H12.9368L10.2391 6.46883L10.1821 6.40536C9.91514 6.07805 9.93399 5.59555 10.2391 5.29045Z" fill="#367DF0" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <button class="btn-secondary position-absolute top-0 end-0 mt-2 me-2 d-flex align-items-center justify-content-center p-0">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L9 9M9 1L1 9" stroke="#6C757D" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="position-relative py-2 px-3 d-flex align-items-center gap-3 alert-white">
+                                    <img src="./assets/images/alert-white-icon-1.svg" class="flex-shrink-0 main-img" alt="">
+                                    <img src="./assets/images/alert-white-icon-1-dark.svg" class="flex-shrink-0 main-img dark-icon" alt="">
+                                    <div>
+                                        <h3>Незавершенная сделка</h3>
+                                        <p>$12 492.59 • 0,106117 BTC</p>
+                                        <a href="#" class="d-inline-flex align-items-center">
+                                            <span>Перейти</span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.2391 5.29045C10.5645 4.96504 11.0921 4.96502 11.4175 5.29045L15.5378 9.41073C15.8631 9.73616 15.8631 10.2637 15.5378 10.5891L11.4175 14.7094C11.0921 15.0348 10.5645 15.0347 10.2391 14.7094C9.91367 14.384 9.91369 13.8564 10.2391 13.531L12.9368 10.8333H5.05111C4.59089 10.8333 4.21781 10.4601 4.21777 9.99992C4.21777 9.53968 4.59087 9.16659 5.05111 9.16659H12.9368L10.2391 6.46883L10.1821 6.40536C9.91514 6.07805 9.93399 5.59555 10.2391 5.29045Z" fill="#367DF0" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <button class="btn-secondary position-absolute top-0 end-0 mt-2 me-2 d-flex align-items-center justify-content-center p-0">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L9 9M9 1L1 9" stroke="#6C757D" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination position-relative d-flex align-items-center justify-content-center gap-2 w-100"></div>
+                </div>
+            </section>
+            <!-- Main page end -->
+
+            <!-- My wallet -->
+            <section class="my-wallet">
+                <div class="container">
+                    <h2>Мой кошелёк</h2>
+                    <div class="operation-month d-flex align-items-start gap-3 mb-2">
+                        <div class="w-100 d-flex align-items-center gap-3">
+                            <img src="./assets/images/operation-month-icon-1.svg" class="flex-shrink-0" alt="">
+                            <div>
+                                <p class="mb-2">Операции за месяц</p>
+                                <h3 class="fw-medium fs-3">$124 492.24</h3>
+                            </div>
+                        </div>
+                        <div class="operation-month__right flex-shrink-0">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#282828" />
+                                    <path d="M16.2858 15.4282C16.2858 15.9015 15.902 16.2853 15.4286 16.2853C14.9553 16.2853 14.5715 15.9015 14.5715 15.4282V10.6402L9.17753 16.0342C8.84279 16.3689 8.30021 16.3689 7.96547 16.0342C7.63074 15.6994 7.63074 15.1569 7.96547 14.8221L13.3594 9.42815H8.5715C8.09811 9.42815 7.71436 9.0444 7.71436 8.57101C7.71436 8.09762 8.09811 7.71387 8.5715 7.71387H15.4286C15.902 7.71387 16.2858 8.09762 16.2858 8.57101V15.4282Z" fill="#E7E7E7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clever-card overflow-hidden position-relative d-flex align-items-center justify-content-between p-3 mb-2">
+                        <div class="icon position-absolute"></div>
+                        <div class="clever-card__left d-flex align-items-center">
+                            <img src="./assets/images/clever-card-logo-1.svg" class="flex-shrink-0" alt="">
+                            <div>
+                                <h3 class="fw-medium">Clever</h3>
+                                <p>$1,00</p>
+                            </div>
+                        </div>
+                        <div class="clever-card__right text-end">
+                            <h4>4 491 CLV</h4>
+                            <p>$4 491,52</p>
+                        </div>
+                    </div>
+                    <ul class="crypto-list p-3 d-flex flex-column gap-4">
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-bitcoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Bitcoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-litecoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Litecoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-bitcoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Bitcoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-litecoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Litecoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-bitcoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Bitcoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                        <li class="crypto-card w-100 d-flex align-items-center justify-content-between">
+                            <div class="crypto-card__left d-flex align-items-center">
+                                <img src="./assets/images/crypto-litecoin.svg" class="flex-shrink-0" alt="">
+                                <div>
+                                    <h3 class="fw-medium">Litecoin</h3>
+                                    <p>≈$124 492,24</p>
+                                </div>
+                            </div>
+                            <div class="crypto-card__right text-end">
+                                <h4>1.4919 BTC</h4>
+                                <p>$181 319,56</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- My wallet end -->
+
+        </main>
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

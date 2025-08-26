@@ -75,3 +75,55 @@ if (document.querySelector('.anons .swiper')) {
         }
     });
 }
+
+const mainPageSwp = new Swiper('.main-page .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+        el: '.main-page .swiper-pagination',
+        clickable: true,
+    }
+})
+
+const walletPageSwp = new Swiper('.wallet .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+        el: '.wallet .swiper-pagination',
+        clickable: true,
+    }
+})
+
+const fundsPageSwp = new Swiper('.funds .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+        el: '.funds .swiper-pagination',
+        clickable: true,
+    }
+})
+
+const priceInputs = document.querySelectorAll(".form-price input");
+if (priceInputs.length) {
+    priceInputs.forEach(el => {
+        IMask(el, {
+            mask: Number,
+            scale: 2,
+            signed: false,
+            thousandsSeparator: '\u202F',
+            radix: ',',
+            mapToRadix: ['.'],
+            normalizeZeros: true,
+            padFractionalZeros: true
+        })
+    })
+}
+
+const checkAMLPageSwp = new Swiper('.check-aml .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+        el: '.check-aml .swiper-pagination',
+        clickable: true,
+    }
+})
