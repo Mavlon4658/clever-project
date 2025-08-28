@@ -721,4 +721,112 @@
             }
         }
     }
+
+    .select-wallet {
+        .btn-secondary {
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+        }
+    }
+    
+    .add-wallet {
+        &__card {
+            background: #202123;
+    
+            h3 {
+                color: $color-main-light;
+            }
+    
+            .icon {
+                border: 1px solid $color-additional-gray-700;
+            }
+        }
+    }
+
+    .import-wallet {
+        .btn-neutral {
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .import-wallet {
+        .form-inp {
+            background: rgba(255, 255, 255, 0.06);
+        }
+    
+        a {
+            color: $color-additional-gray-500;
+            background: #202123;
+        }
+    }
+
+    .wallet-id {
+        .wallet-name {
+            color: $color-main-light;
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .crypto-list {
+            background: #202123;
+        }
+    
+        &__btns {
+            gap: 10px;
+        }
+    
+        .btn-red {
+            gap: 12px;
+        }
+    
+        .btn-secondary {
+            gap: 12px;
+            background: $color-buttons-dark-secondary-default;
+
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .export-wallet {
+        .alert-gray {
+            background: #202123;
+
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+
+            p {
+                color: $color-additional-gray-500;
+            }
+        }
+    
+        .form-inp {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .btn-neutral {
+            background: $color-buttons-light-neutral-default;
+            color: $color-main-light;
+        }
+    }
 }

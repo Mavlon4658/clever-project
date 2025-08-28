@@ -127,3 +127,12 @@ const checkAMLPageSwp = new Swiper('.check-aml .swiper', {
         clickable: true,
     }
 })
+
+const addWalletCard = document.querySelectorAll('.add-wallet__card');
+if (addWalletCard.length) {
+    addWalletCard.forEach(el => {
+        const btn = el.querySelector('.link-btn');
+        const inp = el.querySelector('input');
+        btn.onclick = () => inp.click();
+    })
+}

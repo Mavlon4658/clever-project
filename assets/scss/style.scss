@@ -165,6 +165,7 @@ button, input, textarea, li, div {
 
         &.md {
             height: 40px;
+            border-radius: 14px;
         }
 
         &.sm {
@@ -176,6 +177,128 @@ button, input, textarea, li, div {
             background: $color-buttons-light-neutral-disabled;
             pointer-events: none;
         }
+    }
+
+    &-red {
+        background: rgba(220, 53, 69, 0.12);
+        color: $color-additional-red-500;
+        height: 52px;
+        border-radius: 18px;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        transition: .2s ease-in-out all;
+        cursor: pointer;
+
+        svg, img {
+            opacity: 1;
+            transition: .2s ease-in-out all;
+        }
+        
+        &:hover, &:active {
+            color: rgba(220, 53, 70, 0.8);
+
+            img, svg {
+                opacity: 0.8;
+            }
+        }
+        
+        &.md {
+            height: 40px;
+            border-radius: 14px;
+            font-size: 16px;
+        }
+        
+        &.sm {
+            height: 36px;
+            border-radius: 100px;
+            font-size: 14px;
+        }
+
+        &.disabled {
+            pointer-events: none;
+            color: rgba(220, 53, 70, 0.5);
+
+            img, svg {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    &-red {
+        background: rgba(220, 53, 69, 0.12);
+        color: $color-additional-red-500;
+        height: 52px;
+        border-radius: 18px;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        transition: .2s ease-in-out all;
+        cursor: pointer;
+
+        svg, img {
+            opacity: 1;
+            transition: .2s ease-in-out all;
+        }
+        
+        &:hover, &:active {
+            color: rgba(220, 53, 70, 0.8);
+
+            img, svg {
+                opacity: 0.8;
+            }
+        }
+        
+        &.md {
+            height: 40px;
+            border-radius: 14px;
+            font-size: 16px;
+        }
+        
+        &.sm {
+            height: 36px;
+            border-radius: 100px;
+            font-size: 14px;
+        }
+
+        &.disabled {
+            pointer-events: none;
+            color: rgba(220, 53, 70, 0.5);
+
+            img, svg {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.link-btn {
+    border-radius: 18px;
+    padding: 0 20px;
+    height: 52px;
+    background: $color-main-link-12;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: $color-main-link;
+    transition: .2s ease-in-out all;
+    cursor: pointer;
+
+    &:hover {
+        color: rgba(54, 125, 240, 0.8);
+    }
+
+    &.disabled {
+        color: rgba(54, 125, 240, 0.5);
+        pointer-events: none;
+    }
+
+    &.md {
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    &.sm {
+        height: 36px;
+        font-size: 14px;
+        border-radius: 18px;
     }
 }
 
@@ -1315,6 +1438,194 @@ button, input, textarea, li, div {
                 background: $color-additional-red-500;
             }
         }
+    }
+}
+
+.select-wallet {
+    .text {
+        line-height: 137%;
+        letter-spacing: 0.03em;
+        color: $color-additional-gray-600;
+        
+    }
+
+    .btn-secondary {
+        gap: 12px;
+
+        img.dark-icon {
+            display: none;
+        }
+    }
+}
+
+.add-wallet {
+    &__card {
+        background: #f9f9f9;
+        border-radius: 18px;
+
+        input {
+            cursor: pointer;
+            z-index: 2;
+            opacity: 0;
+            display: none !important;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 133%;
+            letter-spacing: 0.03em;
+            color: $color-main-dark;
+        }
+
+        p {
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            color: $color-additional-gray-600;
+        }
+
+        .icon {
+            width: 28px;
+            height: 28px;
+            border: 1px solid $color-additional-gray-300;
+        }
+
+        .link-btn {
+            border-radius: 14px;
+        }
+
+        input:checked ~ div {
+            .icon span {
+                width: 14px;
+                height: 14px;
+                background: $color-main-link;
+            }
+
+            .link-btn {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.import-wallet {
+    .btn-neutral {
+        gap: 12px;
+
+        img.dark-icon {
+            display: none;
+        }
+    }
+
+    .form-inp {
+        border: 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+
+    a {
+        gap: 12px;
+        padding: 12px;
+        border-radius: 16px;
+        background: #f9f9f9;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+        
+    }
+}
+
+.wallet-id {
+    label {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+
+    .wallet-name {
+        background: #f9f9f9;
+        border-radius: 18px;
+        letter-spacing: 0.02em;
+        color: $color-main-dark;
+    }
+
+    .more-link {
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+
+    &__btns {
+        gap: 10px;
+    }
+
+    .btn-red {
+        gap: 12px;
+    }
+
+    .btn-secondary {
+        gap: 12px;
+
+        img.dark-icon {
+            display: none;
+        }
+    }
+}
+
+.export-wallet {
+    .alert-gray {
+        border-radius: 16px;
+        background: #F9F9F9;
+        padding: 12px;
+        gap: 12px;
+
+        img.dark-icon {
+            display: none;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 143%;
+            letter-spacing: 0.04em;
+            color: $color-additional-gray-600;
+        }
+    }
+
+    .qr-code {
+        position: relative;
+        background: $color-additional-gray-white;
+        border-radius: 32px;
+        z-index: 1;
+        padding: 20px;
+        width: 252px;
+    
+        &::before {
+            border-radius: 32px;
+            content: "";
+            position: absolute;
+            z-index: -1;
+            inset: 0;
+            border: 2px solid transparent;
+            background: linear-gradient(to bottom, #47FD93, #0062FF) border-box;
+            mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            mask-composite: exclude;
+        }
+    }
+
+    label {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+
+    .form-inp {
+        border: 0;
     }
 }
 
