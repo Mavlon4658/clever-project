@@ -55,6 +55,7 @@ button, input, textarea, li, div {
         letter-spacing: 0.04em;
         transition: .2s ease-in-out all;
         cursor: pointer;
+        gap: 12px;
         
         &:hover, &:active {
             background: $color-buttons-primary-accent-hover-pressed;
@@ -87,6 +88,7 @@ button, input, textarea, li, div {
         background: $color-buttons-light-secondary-default;
         color: $color-main-dark;
         transition: .2 ease-in-out all;
+        gap: 12px;
         
         &:hover, &:active {
             background: $color-buttons-light-secondary-hover-pressed;
@@ -120,6 +122,7 @@ button, input, textarea, li, div {
         color: $color-additional-gray-600;
         transition: .2s ease-in-out all;
         cursor: pointer;
+        gap: 12px;
 
         svg path {
             transition: .2s ease-in-out all;
@@ -188,6 +191,7 @@ button, input, textarea, li, div {
         letter-spacing: 0.04em;
         transition: .2s ease-in-out all;
         cursor: pointer;
+        gap: 12px;
 
         svg, img {
             opacity: 1;
@@ -224,15 +228,16 @@ button, input, textarea, li, div {
         }
     }
 
-    &-red {
-        background: rgba(220, 53, 69, 0.12);
-        color: $color-additional-red-500;
+    &-linear {
         height: 52px;
         border-radius: 18px;
         font-size: 16px;
         letter-spacing: 0.04em;
         transition: .2s ease-in-out all;
         cursor: pointer;
+        gap: 12px;
+        background: linear-gradient(270deg, #dcffcc 0%, #fcff99 35%, #ffe1cc 60%, #ffb2f1 100%);
+        color: $color-additional-gray-black;
 
         svg, img {
             opacity: 1;
@@ -240,7 +245,8 @@ button, input, textarea, li, div {
         }
         
         &:hover, &:active {
-            color: rgba(220, 53, 70, 0.8);
+            background: linear-gradient(270deg, rgba(220, 255, 204, 0.8) 0%, rgba(252, 255, 153, 0.8) 35%, rgba(255, 225, 204, 0.8) 60%, rgba(255, 178, 241, 0.8) 100%);
+
 
             img, svg {
                 opacity: 0.8;
@@ -261,7 +267,8 @@ button, input, textarea, li, div {
 
         &.disabled {
             pointer-events: none;
-            color: rgba(220, 53, 70, 0.5);
+            background: linear-gradient(270deg, rgba(184, 255, 153, 0.5) 0%, rgba(252, 255, 153, 0.5) 35%, rgba(255, 225, 204, 0.5) 60%, rgba(255, 153, 236, 0.5) 100%);
+            color: $color-additional-gray-900;
 
             img, svg {
                 opacity: 0.5;

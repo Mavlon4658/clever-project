@@ -116,6 +116,7 @@ button, input, textarea, li, div {
   letter-spacing: 0.04em;
   transition: 0.2s ease-in-out all;
   cursor: pointer;
+  gap: 12px;
 }
 .btn-primary:hover, .btn-primary:active {
   background: #adff89;
@@ -143,6 +144,7 @@ button, input, textarea, li, div {
   background: rgba(102, 110, 136, 0.08);
   color: #282828;
   transition: 0.2 ease-in-out all;
+  gap: 12px;
 }
 .btn-secondary:hover, .btn-secondary:active {
   background: rgba(102, 110, 136, 0.04);
@@ -171,6 +173,7 @@ button, input, textarea, li, div {
   color: #6c757d;
   transition: 0.2s ease-in-out all;
   cursor: pointer;
+  gap: 12px;
 }
 .btn-space svg path {
   transition: 0.2s ease-in-out all;
@@ -228,6 +231,7 @@ button, input, textarea, li, div {
   letter-spacing: 0.04em;
   transition: 0.2s ease-in-out all;
   cursor: pointer;
+  gap: 12px;
 }
 .btn-red svg, .btn-red img {
   opacity: 1;
@@ -256,41 +260,43 @@ button, input, textarea, li, div {
 .btn-red.disabled img, .btn-red.disabled svg {
   opacity: 0.5;
 }
-.btn-red {
-  background: rgba(220, 53, 69, 0.12);
-  color: #dc3545;
+.btn-linear {
   height: 52px;
   border-radius: 18px;
   font-size: 16px;
   letter-spacing: 0.04em;
   transition: 0.2s ease-in-out all;
   cursor: pointer;
+  gap: 12px;
+  background: linear-gradient(270deg, #dcffcc 0%, #fcff99 35%, #ffe1cc 60%, #ffb2f1 100%);
+  color: #000000;
 }
-.btn-red svg, .btn-red img {
+.btn-linear svg, .btn-linear img {
   opacity: 1;
   transition: 0.2s ease-in-out all;
 }
-.btn-red:hover, .btn-red:active {
-  color: rgba(220, 53, 70, 0.8);
+.btn-linear:hover, .btn-linear:active {
+  background: linear-gradient(270deg, rgba(220, 255, 204, 0.8) 0%, rgba(252, 255, 153, 0.8) 35%, rgba(255, 225, 204, 0.8) 60%, rgba(255, 178, 241, 0.8) 100%);
 }
-.btn-red:hover img, .btn-red:hover svg, .btn-red:active img, .btn-red:active svg {
+.btn-linear:hover img, .btn-linear:hover svg, .btn-linear:active img, .btn-linear:active svg {
   opacity: 0.8;
 }
-.btn-red.md {
+.btn-linear.md {
   height: 40px;
   border-radius: 14px;
   font-size: 16px;
 }
-.btn-red.sm {
+.btn-linear.sm {
   height: 36px;
   border-radius: 100px;
   font-size: 14px;
 }
-.btn-red.disabled {
+.btn-linear.disabled {
   pointer-events: none;
-  color: rgba(220, 53, 70, 0.5);
+  background: linear-gradient(270deg, rgba(184, 255, 153, 0.5) 0%, rgba(252, 255, 153, 0.5) 35%, rgba(255, 225, 204, 0.5) 60%, rgba(255, 153, 236, 0.5) 100%);
+  color: #212529;
 }
-.btn-red.disabled img, .btn-red.disabled svg {
+.btn-linear.disabled img, .btn-linear.disabled svg {
   opacity: 0.5;
 }
 
