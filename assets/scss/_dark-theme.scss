@@ -829,4 +829,210 @@
             color: $color-main-light;
         }
     }
+
+    .profile {
+        .circle {
+            width: 496px;
+            min-width: 496px;
+            height: 392px;
+            top: -45px;
+            transform: translateX(-50%) rotateZ(156deg);
+            opacity: 0.14;
+        }
+    
+        &-head {
+            h2 {
+                color: $color-main-light;
+            }
+        }
+    
+        &-payment {
+            border: 1px solid $color-additional-gray-900;
+            background: #202123;
+
+            h3 {
+                color: $color-main-light;
+            }
+    
+            h4 {
+                color: $color-main-light;
+    
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+    
+            .line {
+                background: rgba(255, 255, 255, 0.06);
+    
+                span {
+                    background: $color-additional-red-500;
+                }
+            }
+            
+            .btn-secondary {
+                background: $color-buttons-dark-secondary-default;
+
+                img {
+                    display: none;
+
+                    &.dark-icon {
+                        display: block;
+                    }
+                }
+            }
+        }
+    
+        .link {
+            &-list {
+                border: 1px solid $color-additional-gray-900;
+                background: #202123;
+            }
+    
+            &-item {
+                color: $color-main-light;
+            }
+    
+            &-line {
+                height: 1px;
+                background: $color-additional-gray-900;
+            }
+        }
+    
+        .log-out {
+            border: 1px solid $color-additional-gray-900;
+            color: $color-main-light;
+            background: #202123;
+        }
+    }
+
+    .profile-settings {
+        .form-inp {
+            background: rgba(255, 255, 255, 0.06);
+        }
+    }
+
+    .profile-security {
+        .title {
+            color: $color-main-light;
+        }
+
+        .form-inp {
+            background: rgba(255, 255, 255, 0.06);
+        }
+    
+        .two-factor {
+            border: 1px solid $color-additional-gray-800;
+        }
+    
+        .text {
+            h4 {
+                color: $color-main-light;
+        
+                span {
+                    background: rgba(255, 255, 255, 0.04);
+                }
+            }
+        }
+    
+        .btns {
+            gap: 12px;
+    
+            .btn-secondary {
+                img {
+                    display: none;
+
+                    &.dark-icon {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .profile-devices {
+        h3 {
+            color: $color-main-light;
+        }
+    }
+    
+    .device-card {
+        &__text {
+            gap: 12px;
+    
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+        }
+    
+        &__name {
+            color: $color-main-light;
+        }
+
+        svg path {
+            stroke: $color-additional-gray-600;
+        }
+    }
+
+    .profile-tarif {
+        &__head {
+            background: rgba(255, 255, 255, 0.04);
+    
+            a {
+                color: $color-main-light;
+                
+                &.active {
+                    background: $color-main-link-12;
+                    color: $color-main-link;
+                }
+            }
+        }
+    
+        .tarif {
+            &-card {
+                border-color: $color-additional-gray-800;
+                background: #0f1012;
+
+                .bg-img {
+                    z-index: -1;
+                }
+                
+                &__head {
+                    border-color: $color-additional-gray-800;
+    
+                    .icon {
+                        display: none;
+
+                        &.dark-icon {
+                            display: block;
+                        }
+                    }
+    
+                    h4 {
+                        color: $color-main-light;
+                    }
+    
+                    h3 {
+                        color: $color-main-light;
+                    }
+                    
+                    .price {
+                        color: $color-main-light;
+                    }
+                }
+    
+                &__bottom {
+                    p {
+                        span {
+                            color: $color-main-light;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

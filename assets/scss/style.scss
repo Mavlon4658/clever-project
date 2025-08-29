@@ -238,6 +238,7 @@ button, input, textarea, li, div {
         gap: 12px;
         background: linear-gradient(270deg, #dcffcc 0%, #fcff99 35%, #ffe1cc 60%, #ffb2f1 100%);
         color: $color-additional-gray-black;
+        padding: 0 20px;
 
         svg, img {
             opacity: 1;
@@ -263,6 +264,7 @@ button, input, textarea, li, div {
             height: 36px;
             border-radius: 100px;
             font-size: 14px;
+            padding: 0 12px;
         }
 
         &.disabled {
@@ -1633,6 +1635,374 @@ button, input, textarea, li, div {
 
     .form-inp {
         border: 0;
+    }
+}
+
+.profile {
+    padding: 32px 0 100px;
+    z-index: 1;
+
+    .circle {
+        border-radius: 100%;
+        background: radial-gradient(70.96% 68.53% at 79.71% 66.24%, rgb(127, 255, 71) 20.000000298023224%, rgb(249, 255, 32) 55.000001192092896%, rgb(255, 218, 192) 80.0000011920929%, rgb(252, 118, 227) 100%);
+        filter: blur(65px);
+        width: 712px;
+        min-width: 712px;
+        height: 564px;
+        z-index: -1;
+        top: -136px;
+        transform: translateX(-50%) rotateZ(180deg);
+        opacity: 0.2;
+    }
+
+    &-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    &-head {
+        gap: 12px;
+
+        h2 {
+            font-family: $font-nagel;
+            font-size: 24px;
+            color: $color-main-dark;
+            
+        }
+    }
+
+    &-payment {
+        border: 1px solid $color-additional-gray-200;
+        border-radius: 24px;
+        padding: 20px;
+        background: $color-additional-gray-white;
+
+        .text {
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            color: $color-main-dark;
+        }
+
+        h4 {
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            color: $color-main-dark;
+
+            span {
+                color: $color-additional-gray-600;
+            }
+        }
+
+        .line {
+            height: 10px;
+            background: $color-additional-gray-200;
+
+            span {
+                background: $color-additional-red-500;
+            }
+        }
+        
+        .btn-secondary {
+            img.dark-icon {
+                display: none;
+            }
+        }
+    }
+
+    .link {
+        &-list {
+            border: 1px solid $color-additional-gray-200;
+            border-radius: 24px;
+            padding: 12px 20px;
+            background: $color-additional-gray-white;
+        }
+
+        &-item {
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            color: $color-main-dark;
+            padding: 7px 0;
+
+            span {
+                gap: 12px;
+            }
+        }
+
+        &-line {
+            height: 1px;
+            background: $color-additional-gray-200;
+        }
+    }
+
+    .log-out {
+        border: 1px solid $color-additional-gray-200;
+        border-radius: 24px;
+        padding: 19px 20px;
+        gap: 12px;
+        line-height: 137%;
+        letter-spacing: 0.03em;
+        color: $color-main-dark;
+        
+    }
+}
+
+.profile-settings {
+    .avatar-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .select-logo {
+        input {
+            cursor: pointer;
+            z-index: 2;
+        }
+    }
+
+    label {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+}
+
+.profile-security {
+    .title {
+        font-family: $font-nagel;
+        font-size: 24px;
+        color: $color-main-dark;
+    }
+
+    label {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+
+    .two-factor {
+        gap: 20px;
+        border: 1px solid $color-additional-gray-200;
+        border-radius: 24px;
+        padding: 20px 16px;
+    }
+
+    .text {
+        h4 {
+            gap: 12px;
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            color: $color-main-dark;
+            
+    
+            span {
+                background: #f9f9f9;
+                border-radius: 12px;
+                width: 34px;
+                height: 34px;
+                color: $color-additional-gray-600;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 143%;
+            letter-spacing: 0.04em;
+            color: $color-additional-gray-600;
+            padding-left: 46px;
+            margin-top: 2px;
+        }
+    }
+
+    .btns {
+        gap: 12px;
+
+        .btn-secondary {
+            img.dark-icon {
+                display: none;
+            }
+        }
+    }
+}
+
+.profile-devices {
+    h3 {
+        line-height: 137%;
+        letter-spacing: 0.03em;
+        color: $color-main-dark;
+    }
+}
+
+.device-card {
+    &__text {
+        gap: 12px;
+
+        img.dark-icon {
+            display: none;
+        }
+    }
+
+    &__name {
+        line-height: 137%;
+        letter-spacing: 0.03em;
+        color: $color-main-dark;
+        margin-bottom: 2px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.04em;
+        color: $color-additional-gray-600;
+    }
+}
+
+.profile-tarif {
+    &__head {
+        background: #f9f9f9;
+        margin-bottom: 12px;
+
+        a {
+            padding: 7px 7px 7px 24px;
+            font-size: 16px;
+            line-height: 137%;
+            letter-spacing: 0.03em;
+            text-align: center;
+            color: $color-main-dark;
+            gap: 10px;
+            
+            &.active {
+                padding: 10px 24px;
+                background: $color-main-link-12;
+                color: $color-main-link;
+            }
+
+            .present {
+                background: rgba(220, 53, 69, 0.12);
+                font-size: 14px;
+                line-height: 129%;
+                letter-spacing: 0.04em;
+                color: $color-additional-red-500;
+                padding: 7px 16px;
+            }
+        }
+    }
+
+    .tarif {
+        &-card {
+            border: 1px solid $color-additional-gray-200;
+            border-radius: 24px;
+            z-index: 1;
+            background: $color-additional-gray-white;
+
+            .bg-img {
+                z-index: -1;
+            }
+            
+            &__head {
+                padding: 20px;
+                gap: 20px;
+                border-bottom: 1px solid $color-additional-gray-200;
+
+                .icon.dark-icon {
+                    display: none;
+                }
+
+                h4 {
+                    font-size: 20px;
+                    line-height: 120%;
+                    letter-spacing: 0.02em;
+                    color: $color-main-dark;
+                }
+
+                .text {
+                    font-size: 14px;
+                    line-height: 143%;
+                    letter-spacing: 0.04em;
+                    color: $color-additional-gray-600;
+                }
+
+                h3 {
+                    font-family: $font-nagel;
+                    font-size: 28px;
+                    color: $color-main-dark;
+                }
+                
+                .price {
+                    font-family: $font-nagel;
+                    font-size: 38px;
+                    color: $color-main-dark;
+                    
+
+                    span {
+                        font-family: $font-nebulas;
+                        line-height: 137%;
+                        letter-spacing: 0.03em;
+                        color: $color-additional-gray-600;
+                    }
+                }
+
+                del {
+                    font-size: 18px;
+                    line-height: 133%;
+                    letter-spacing: 0.03em;
+                    text-decoration: line-through;
+                    color: $color-additional-gray-600;
+                }
+            }
+
+            &__alert {
+                font-size: 14px;
+                line-height: 129%;
+                letter-spacing: 0.04em;
+                color: $color-additional-red-500;
+                background: rgba(220, 53, 69, 0.12);
+                padding: 5px 16px;
+            }
+
+            &__bottom {
+                padding: 20px;
+
+                h4 {
+                    line-height: 137%;
+                    letter-spacing: 0.03em;
+                    color: $color-additional-gray-600;
+                }
+
+                ul {
+                    gap: 20px;
+                }
+
+                p {
+                    line-height: 137%;
+                    letter-spacing: 0.03em;
+                    color: $color-additional-gray-600;
+
+                    span {
+                        color: $color-main-dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .best-card {
+        background: #9DFF73;
+        border-radius: 24px;
+
+        &__title {
+            gap: 10px;
+            padding: 9px 0;
+            font-size: 14px;
+            line-height: 129%;
+            letter-spacing: 0.04em;
+            color: $color-main-dark;
+        }
     }
 }
 

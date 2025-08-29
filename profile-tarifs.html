@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Тарифы</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Profile tarifs -->
+        <section class="profile-tarif h-full d-flex pt-3">
+            <div class="container h-full d-flex flex-column align-items-center">
+                <div class="profile-tarif__head d-flex align-items-center justify-content-center rounded-pill overflow-hidden">
+                    <a href="#" class="active d-flex align-items-center rounded-pill">Помесячно</a>
+                    <a href="#" class="d-flex align-items-center rounded-pill">
+                        <span>Ежегодно</span>
+                        <span class="present fw-medium rounded-pill">-40%</span>
+                    </a>
+                </div>
+                <div class="tarif-list d-flex flex-column w-100 gap-3">
+                    <div class="tarif-card overflow-hidden">
+                        <div class="tarif-card__head d-flex flex-column">
+                            <div class="w-100">
+                                <img src="./assets/images/tarif-card-icon-1.svg" alt="" class="icon flex-shrink-0">
+                                <img src="./assets/images/tarif-card-icon-1-dark.svg" alt="" class="icon flex-shrink-0 dark-icon">
+                                <h4 class="fw-medium my-2 py-1">Базовый</h4>
+                                <div class="text">Начальный план</div>
+                            </div>
+                            <h3 class="fw-medium lh-1">Бесплатно</h3>
+                        </div>
+                        <div class="tarif-card__bottom">
+                            <h4 class="fw-normal fs-6 mb-3 pb-1">План включает в себя:</h4>
+                            <ul class="d-flex flex-column">
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-1.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>50</span> платежей</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-2.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>Общая</span> поддержка</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-3.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>6</span> доступных монет</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tarif-card overflow-hidden position-relative">
+                        <img src="./assets/images/tarif-card-bg-1.png" alt="" class="bg-img w-100 position-absolute top-0 start-0">
+                        <div class="tarif-card__head d-flex flex-column">
+                            <div class="w-100">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="./assets/images/tarif-card-icon-2.svg" alt="" class="icon flex-shrink-0">
+                                    <img src="./assets/images/tarif-card-icon-2-dark.svg" alt="" class="icon flex-shrink-0 dark-icon">
+                                    <div class="tarif-card__alert rounded-pill fw-medium">-40%</div>
+                                </div>
+                                <h4 class="fw-medium my-2 py-1">Начальный</h4>
+                                <div class="text">Выбор для малого и среднего бизнеса</div>
+                            </div>
+                            <div>
+                                <div class="price fw-medium lh-1 mb-2 d-flex align-items-end gap-2">
+                                    6 560 ₽ <span class="fs-6 fw-normal">/в год</span>
+                                </div>
+                                <del>10 500 ₽</del>
+                            </div>
+                            <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Оформить подписку</button>
+                        </div>
+                        <div class="tarif-card__bottom">
+                            <h4 class="fw-normal fs-6 mb-3 pb-1">План включает в себя:</h4>
+                            <ul class="d-flex flex-column">
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-2-1.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>1</span> магазин доступен для создания</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-1.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>10 000</span> платежей в месяц</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-2.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>24/7</span> поддержка</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-3.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>60+</span> доступных монет</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-card overflow-hidden">
+                        <div class="best-card__title d-flex align-items-center justify-content-center fw-medium">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.35" d="M16.6663 11.6667C16.6663 15.3484 13.6813 18.3334 9.99967 18.3334C6.31801 18.3334 3.33301 15.3484 3.33301 11.6667C3.33301 8.69672 6.71967 4.45672 8.66551 2.26672C9.37467 1.46839 10.6247 1.46839 11.3338 2.26672C13.2797 4.45672 16.6663 8.69672 16.6663 11.6667Z" fill="black" />
+                                <path d="M13.3337 13.3334C13.3337 15.1742 11.8412 16.6667 10.0003 16.6667C8.15949 16.6667 6.66699 15.1742 6.66699 13.3334C6.66699 11.8484 8.36033 9.72836 9.33283 8.63336C9.68783 8.23419 10.312 8.23419 10.667 8.63336C11.6403 9.72836 13.3337 11.8484 13.3337 13.3334Z" fill="black" />
+                            </svg>
+                            <span>Лучшее предложение</span>
+                        </div>
+                        <div class="tarif-card overflow-hidden position-relative">
+                            <img src="./assets/images/tarif-card-bg-2.png" alt="" class="bg-img w-100 position-absolute top-0 start-0">
+                            <div class="tarif-card__head d-flex flex-column">
+                                <div class="w-100">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <img src="./assets/images/tarif-card-icon-3.svg" alt="" class="icon flex-shrink-0">
+                                        <img src="./assets/images/tarif-card-icon-3-dark.svg" alt="" class="icon flex-shrink-0 dark-icon">
+                                        <div class="tarif-card__alert rounded-pill fw-medium">-40%</div>
+                                    </div>
+                                    <h4 class="fw-medium my-2 py-1">Продвинутый</h4>
+                                    <div class="text">Выбор для крупного бизнеса</div>
+                                </div>
+                                <div>
+                                    <div class="price fw-medium lh-1 mb-2 d-flex align-items-end gap-2">
+                                        157 680 ₽ <span class="fs-6 fw-normal">/в год</span>
+                                    </div>
+                                    <del>262 800 ₽</del>
+                                </div>
+                                <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Оформить подписку</button>
+                            </div>
+                            <div class="tarif-card__bottom">
+                                <h4 class="fw-normal fs-6 mb-3 pb-1">План включает в себя:</h4>
+                                <ul class="d-flex flex-column">
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-2-1.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>3</span> магазина доступны для создания</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-3-2.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>1</span> площадка доступна для создания</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-3-3.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>0%</span> комиссия P2P</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-1-1.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>500 000</span> платежей в месяц</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-1-2.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>24/7</span> поддержка</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <img src="./assets/images/tarif-list-icon-1-3.svg" alt="" class="flex-shrink-0">
+                                        <p class="fs-6 ps-1 ms-2"><span>60+</span> доступных монет</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarif-card overflow-hidden position-relative">
+                        <img src="./assets/images/tarif-card-bg-3.png" alt="" class="bg-img w-100 position-absolute top-0 start-0">
+                        <div class="tarif-card__head d-flex flex-column">
+                            <div class="w-100">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="./assets/images/tarif-card-icon-4.svg" alt="" class="icon flex-shrink-0">
+                                    <img src="./assets/images/tarif-card-icon-4-dark.svg" alt="" class="icon flex-shrink-0 dark-icon">
+                                    <div class="tarif-card__alert rounded-pill fw-medium">-40%</div>
+                                </div>
+                                <h4 class="fw-medium my-2 py-1">Индивидуальный</h4>
+                                <div class="text">Для тех, кому нужны индивидуальные условия</div>
+                            </div>
+                            <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Свяжитесь с нами</button>
+                        </div>
+                        <div class="tarif-card__bottom">
+                            <h4 class="fw-normal fs-6 mb-3 pb-1">План включает в себя:</h4>
+                            <ul class="d-flex flex-column">
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-2-1.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>5</span> магазинов доступны для создания</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-3-2.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>3</span> площадки доступны для создания</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-3-3.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>0%</span> комиссия P2P</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-1.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>∞</span> платежей в месяц</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-2.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>24/7</span> поддержка</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./assets/images/tarif-list-icon-1-3.svg" alt="" class="flex-shrink-0">
+                                    <p class="fs-6 ps-1 ms-2"><span>Монеты</span> по запросу</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile tarifs end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

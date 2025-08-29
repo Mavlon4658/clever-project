@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Безопасность</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Profile security -->
+        <section class="profile-security h-full d-flex pt-3">
+            <div class="container h-full">
+                <div class="fw-medium lh-1 mb-3 pb-1 title">Смена пароля</div>
+                <div class="d-flex flex-column gap-3 mb-3 pb-1">
+                    <div>
+                        <label for="" class="mb-2">Текущий пароль</label>
+                        <input type="password" placeholder="Введите текущий пароль" class="px-4 fs-6 border-0 form-inp">
+                    </div>
+                    <div>
+                        <label for="" class="mb-2">Новый пароль</label>
+                        <input type="password" placeholder="Введите новый пароль" class="px-4 fs-6 border-0 form-inp">
+                    </div>
+                    <div>
+                        <label for="" class="mb-2">Повторите новый пароль</label>
+                        <input type="password" placeholder="Повторите новый пароль" class="px-4 fs-6 border-0 form-inp">
+                    </div>
+                </div>
+                <button class="w-100 mb-4 d-flex align-items-center justify-content-center fw-medium btn-neutral">Сменить пароль</button>
+                <div class="fw-medium lh-1 mb-3 pb-1 title">Двухфакторная аутентификация</div>
+                <div class="two-factor d-flex flex-column">
+                    <label for="">Как поставить?</label>
+                    <div class="text">
+                        <h4 class="d-flex align-items-center fs-6 fw-medium">
+                            <span class="d-flex align-items-center justify-content-center flex-shrink-0">1</span>
+                            Установите Google Authenticator
+                        </h4>
+                        <p>Выберите версию под своё устройство и установите приложение</p>
+                    </div>
+                    <div class="d-flex flex-column btns">
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">
+                            <img src="./assets/images/android-icon.svg" class="flex-shrink-0" alt="">
+                            <img src="./assets/images/android-icon-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                            <span>Скачать на Android</span>
+                        </button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">
+                            <img src="./assets/images/apple-icon.svg" class="flex-shrink-0" alt="">
+                            <img src="./assets/images/apple-icon-dark.svg" class="flex-shrink-0 dark-icon" alt="">
+                            <span>Скачать на IOS</span>
+                        </button>
+                    </div>
+                    <div class="text">
+                        <h4 class="d-flex align-items-center fs-6 fw-medium">
+                            <span class="d-flex align-items-center justify-content-center flex-shrink-0">2</span>
+                            Запустите Google Authenticator
+                        </h4>
+                        <p>Нажмите «+», чтобы добавить аккаунт — отсканируйте QR-код или введите ключ</p>
+                    </div>
+                    <div class="text">
+                        <h4 class="d-flex align-items-center fs-6 fw-medium">
+                            <span class="d-flex align-items-center justify-content-center flex-shrink-0">3</span>
+                            Введите 6-значный код из Google Authenticator
+                        </h4>
+                    </div>
+                    <input type="number" placeholder="Введите 6-значный код из приложения" class="px-4 fs-6 border-0 form-inp" inputmode="numeric" pattern="[0-9]*">
+                    <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Подключить Google Authenticator</button>
+                </div>
+            </div>
+        </section>
+        <!-- Profile security end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
