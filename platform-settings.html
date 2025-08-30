@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Настройки площадки</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Profile settings -->
+        <section class="profile-settings h-full d-flex pt-3">
+            <div class="container h-full d-flex flex-column justify-content-between gap-3">
+                <div class="d-flex flex-column align-items-center gap-3">
+                    <div class="avatar-logo flex-shrink-0 rounded-circle overflow-hidden">
+                        <img src="./assets/images/business-logo-2.svg" class="w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="select-logo position-relative">
+                        <input type="file" name="" id="" class="position-absolute top-0 start-0 w-100 h-100 opacity-0">
+                        <button class="d-flex align-items-center justify-content-center link-btn sm">Загрузить аватар</button>
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">ID</label>
+                        <input type="text" placeholder="Введите ID магазина" class="px-4 fs-6 form-inp border-0">
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">API Token</label>
+                        <input type="text" placeholder="Введите API token" class="px-4 fs-6 form-inp border-0">
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">Ссылка для уведомлений</label>
+                        <input type="text" placeholder="Введите ссылку для уведомлений" class="px-4 fs-6 form-inp border-0">
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">Ссылка для перенаправления после оплаты</label>
+                        <input type="text" placeholder="Введите ссылку перенаправления" class="px-4 fs-6 form-inp border-0">
+                    </div>
+                </div>
+                <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Сохранить изменения</button>
+            </div>
+        </section>
+        <!-- Profile settings end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

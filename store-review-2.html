@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Обзор магазина</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Store review -->
+        <section class="store-review position-relative">
+            <div class="container pt-3">
+                <div class="alert-red d-flex align-items-center mb-2">
+                    <img src="./assets/images/alert-circle.svg" alt="" class="flex-shrink-0">
+                    <p>Будьте бдительны! На магазин недавно был открыт спор. <a href="#">Посмотреть детали спора...</a></p>
+                </div>
+                <div class="store-review__card d-flex flex-column align-items-start gap-3 p-3 mb-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/business-logo-2.svg" width="44" alt="" class="flex-shrink-0 rounded-circle">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="store-review__card-name d-flex align-items-center fs-6">
+                                <b class="fw-medium">FunPay</b>
+                                funpay.com
+                            </div>
+                            <div class="store-review__card-id">ID: #194205</div>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex flex-column gap-2">
+                        <h4 class="fs-6">Описание</h4>
+                        <p class="fs-6">Potter ipsum wand elf parchment wingardium. Mellow veil stunning inches ministry-of-magic again goblet stunning</p>
+                    </div>
+                    <div class="alert-success w-100 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/check-green.svg" width="24" alt="" class="flex-shrink-0">
+                        <span class="fs-6">Ваша заявка одобрена</span>
+                    </div>
+                    <div class="alert-error w-100 d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/times-red.svg" width="24" alt="" class="flex-shrink-0">
+                        <span class="fs-6">Ваша заявка отклонена</span>
+                    </div>
+                    <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">Подать заявку</button>
+                </div>
+                <div class="title fw-medium lh-1 mb-3">Статистика</div>
+                <div class="d-flex flex-column gap-2 w-100 mb-4">
+                    <div class="w-100 statistica-card d-flex align-items-center justify-content-between gap-3 p-3">
+                        <p class="fs-6 ps-2 ms-1">Общ. конверсия</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 44 44">
+                                <circle
+                                    stroke-width="8"
+                                    stroke="#E9ECEF"
+                                    fill="transparent"
+                                    r="17"
+                                    cx="22"
+                                    cy="22"/>
+                                <circle
+                                    stroke-width="8"
+                                    stroke-linecap="round"
+                                    stroke="#38C793"
+                                    fill="transparent"
+                                    r="17"
+                                    cx="22"
+                                    cy="22"
+                                    transform="rotate(-90 22 22)"
+                                    stroke-dasharray="100.48"
+                                    stroke-dashoffset="30.36"
+                                />
+                            </svg>
+                            <b class="fw-medium">70%</b>
+                        </div>
+                    </div>
+                    <div class="rating-card d-flex align-items-center justify-content-between py-2 pe-2 ps-3">
+                        <p class="fs-6">Оценки</p>
+                        <ul class="d-flex gap-2">
+                            <li class="alert-teal d-flex align-items-center gap-2">
+                                <img src="./assets/images/like-green.svg" height="20" alt="" class="flex-shrink-0">
+                                <span class="fs-6 fw-medium">2 451</span>
+                            </li>
+                            <li class="alert-red d-flex align-items-center gap-2">
+                                <img src="./assets/images/alert-red.svg" height="20" alt="" class="flex-shrink-0">
+                                <span class="fs-6 fw-medium">1</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="w-100 d-flex align-items-center justify-content-center btn-red md">
+                        <img src="./assets/images/alert-red.svg" alt="" class="flex-shrink-0">
+                        <span>Открыть спор</span>
+                    </a>
+                </div>
+                <div class="title fw-medium lh-1 mb-3">Открытые споры</div>
+                <div class="disputes-card d-flex flex-column align-items-start gap-3 p-3">
+                    <div class="disputes-card__head d-flex align-items-center">
+                        <img src="./assets/images/business-logo-3.svg" width="34" height="34" alt="" class="object-fit-cover rounded-circle">
+                        <h3 class="fs-6 fw-medium">Kupikod</h3>
+                        <div class="alert-gray d-flex align-items-center">
+                            <img src="./assets/images/bank-1.svg" alt="" class="flex-shrink-0">
+                            <img src="./assets/images/bank-2.svg" alt="" class="flex-shrink-0">
+                        </div>
+                    </div>
+                    <div class="alert-red d-flex align-items-center gap-2">
+                        <img src="./assets/images/alert-red.svg" height="20" alt="" class="flex-shrink-0">
+                        <span class="fs-6">Платеж не зачислен</span>
+                    </div>
+                    <p class="w-100 fs-6">Potter ipsum wand elf parchment wingardium. Mellow veil stunning inches ministry-of-magic again goblet stunning. Ground troll dervish daisies bedroom fawkes tonight teacup creature.</p>
+                    <ul class="w-100 d-flex align-items-center justify-content-between">
+                        <li>4 дек. 2024</li>
+                        <li>ID: #194205</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Store review end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

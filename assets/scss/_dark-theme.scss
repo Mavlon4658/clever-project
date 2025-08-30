@@ -1035,4 +1035,265 @@
             }
         }
     }
+
+    .business {
+        h2 {
+            color: $color-main-light;
+        }
+    
+        &-navs {
+            border-bottom: 1px solid $color-additional-gray-800;
+    
+            a {
+                &.active, &:hover {
+                    color: $color-main-light;
+                    background: rgba(255, 255, 255, 0.08);
+                }
+            }
+        }
+    
+        .btn-secondary {
+            background: $color-buttons-dark-secondary-default;
+    
+            img {
+                display: none;
+
+                &.dark-icon {
+                    display: block;
+                }
+            }
+        }
+    
+        &-link {
+            background: #202123;
+    
+            &__title {
+                b {
+                    color: $color-main-light;
+                }
+            }
+
+            &__bottom {
+                b {
+                    line-height: 137%;
+                    letter-spacing: 0.03em;
+                    color: $color-main-light;
+                }
+    
+                svg circle:nth-child(1) {
+                    stroke: $color-additional-gray-700;
+                }
+            }
+        }
+    }
+
+    .profile-store {
+        &__head {
+            h3 {
+                color: $color-main-light;
+            }
+
+            .btn-secondary {
+                background: $color-buttons-dark-secondary-default;
+
+                img {
+                    display: none;
+
+                    &.dark-icon {
+                        display: block;
+                    }
+                }
+            }
+        }
+    
+        .title {
+            color: $color-main-light;
+            
+            span {
+                color: $color-additional-gray-600;
+            }
+        }
+    
+        .statistic-card {
+            border: 1.5px solid $color-additional-gray-800;
+    
+            h3 {
+                color: $color-main-light;
+            }
+        }
+    
+        .reviews-card {
+            background: #202123;
+    
+            &__name {
+                color: $color-additional-gray-600;
+            }
+    
+            &__rating {
+                color: $color-main-light;
+                
+                span {
+                    color: $color-additional-gray-600;
+                }
+            }
+    
+            p {
+                color: $color-main-light;
+            }
+        }
+    }
+
+    .account-created {
+        &__head {
+            h2 {
+                color: $color-main-light;
+            }
+        }
+    
+        .form-inp {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .navigation {
+            a {
+                color: $color-additional-gray-600;
+                
+                .icon {
+                    height: 54px;
+                    border-radius: 18px;
+                    background: rgba(255, 255, 255, 0.04);
+
+                    svg {
+                        display: none;
+
+                        &:nth-child(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .payment-card {
+        background: #202123;
+    
+        h3 {
+            color: $color-main-light;
+    
+            span {
+                color: $color-additional-gray-600;
+            }
+        }
+    }
+
+    .store-review {
+        &__card {
+            background: #202123;
+
+            &-name {
+            
+                b {
+                    color: $color-main-light;
+                }
+            }
+    
+            p {
+                color: $color-main-light;
+            }
+
+            .btn-neutral {
+                background: $color-buttons-light-neutral-default;
+                color: $color-main-light;
+            }
+        }
+    
+        .title {
+            color: $color-main-light;
+        }
+    
+        .statistica {
+            &-card {
+                background: #202123;
+    
+                b {
+                    color: $color-main-light;
+                }
+            }
+        } 
+    
+        .rating-card {
+            background: #202123;
+        }
+    
+        .disputes-card {
+            background: #202123;
+    
+            &__head {
+                h3 {
+                    color: $color-main-light;
+                }
+            }
+
+            p {
+                color: $color-main-light;
+            }
+        }
+    }
+
+    .view-payment {
+        &__card {
+            h3 {
+                color: $color-main-light;
+            }
+    
+            &-right {
+                b {
+                    color: $color-main-light;
+                }
+            }
+    
+            &.success {
+                b {
+                    color: $color-additional-teal-600;
+                }
+            }
+        }
+    }
+    
+    .main-modal {
+        background: #18191b;
+    }
+    
+    .payment-modal {
+        h2 {
+            color: $color-main-light;
+        }
+    
+        &__card {
+            background: rgba(249, 249, 249, 0.06);
+    
+            h4 {
+                color: $color-main-light;
+    
+                .text-gray {
+                    color: $color-additional-gray-600;
+                }
+            }
+        }
+    
+        .btns {
+            .btn-neutral,
+            .btn-secondary,
+            .btn-space {
+                background: $color-buttons-dark-secondary-default;
+                color: $color-additional-gray-white;
+                border-radius: 18px;
+            }
+
+            .btn-secondary img {
+                filter: invert(1)
+            }
+        }
+    }
 }

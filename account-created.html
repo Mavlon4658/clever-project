@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0 border-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Account created -->
+        <section class="account-created h-full d-flex">
+            <div class="container h-full d-flex flex-column align-items-center">
+                <div class="account-created__head d-flex flex-column align-items-center gap-3 text-center">
+                    <img src="./assets/images/success-check.svg" width="48" alt="">
+                    <h2 class="fw-medium">Ваш счёт успешно создан!</h2>
+                    <p class="fs-6">Поделитесь ссылкой или QR-кодом, чтобы принять оплату </p>
+                </div>
+                <div class="qr-code">
+                    <img src="./assets/images/account-created-qrcode.svg" alt="" class="w-100">
+                </div>
+                <div class="w-100">
+                    <input type="text" class="px-4 fs-6 border-0 form-inp" value="https://4clever.io/pay?hash=9545b30095572b2e373d8740b71f791a">
+                    <div class="row gx-2 navigation">
+                        <div class="col-6">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M8.02295 19.7938V7.84119C8.02295 6.19073 9.36065 4.85303 11.0111 4.85303H15.9914L21.9677 10.8293V19.7938C21.9677 21.4443 20.63 22.782 18.9795 22.782H11.0111C9.36065 22.782 8.02295 21.4443 8.02295 19.7938Z" fill="#282828" />
+                                        <path d="M15.9917 8.83724V4.85303L21.968 10.8293H17.9838C16.8832 10.8293 15.9917 9.93788 15.9917 8.83724Z" fill="#282828" />
+                                        <path d="M11.012 22.7816C9.36154 22.7816 8.02384 21.4439 8.02384 19.7935V7.84082C6.92321 7.84082 6.03174 8.73229 6.03174 9.83293V21.7856C6.03174 23.436 7.36944 24.7737 9.0199 24.7737H16.9883C18.089 24.7737 18.9804 23.8823 18.9804 22.7816H11.012Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M8.02295 19.7933V7.8407C8.02295 6.19024 9.36065 4.85254 11.0111 4.85254H15.9914L21.9677 10.8289V19.7933C21.9677 21.4438 20.63 22.7815 18.9795 22.7815H11.0111C9.36065 22.7815 8.02295 21.4438 8.02295 19.7933Z" fill="#E7E7E7" />
+                                        <path d="M15.9917 8.83675V4.85254L21.968 10.8289H17.9838C16.8832 10.8289 15.9917 9.93739 15.9917 8.83675Z" fill="#E7E7E7" />
+                                        <path d="M11.012 22.7816C9.36154 22.7816 8.02384 21.4439 8.02384 19.7935V7.84082C6.92321 7.84082 6.03174 8.73229 6.03174 9.83293V21.7856C6.03174 23.436 7.36944 24.7737 9.0199 24.7737H16.9883C18.089 24.7737 18.9804 23.8823 18.9804 22.7816H11.012Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Скопировать</span>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="w-100 d-flex flex-column align-items-center text-center gap-2">
+                                <div class="icon d-flex align-items-center justify-content-center w-100">
+                                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M19.997 10.7764H17.9982V13.7745H19.4973C19.7971 13.7745 19.997 13.9744 19.997 14.2742V21.2698C19.997 21.5696 19.7971 21.7695 19.4973 21.7695H8.50416C8.20435 21.7695 8.00448 21.5696 8.00448 21.2698V14.2742C8.00448 13.9744 8.20435 13.7745 8.50416 13.7745H10.0032V10.7764H8.00448C6.30554 10.7764 5.00635 12.0756 5.00635 13.7745V21.7695C5.00635 23.4684 6.30554 24.7676 8.00448 24.7676H19.997C21.6959 24.7676 22.9951 23.4684 22.9951 21.7695V13.7745C22.9951 12.0756 21.6959 10.7764 19.997 10.7764Z" fill="#282828" />
+                                        <path d="M17.2981 8.77738C17.8977 8.77738 18.1975 8.07782 17.7978 7.57813L14.8996 4.67994C14.3999 4.18025 13.6004 4.18025 13.1007 4.67994L10.2025 7.57813C9.80278 8.07782 10.1026 8.77738 10.7022 8.77738H17.2981Z" fill="#282828" />
+                                        <path d="M15.999 17.7721V7.77832H12.0015V17.7721C12.0015 18.3717 12.4012 18.7715 13.0008 18.7715H14.9996C15.5992 18.7715 15.999 18.3717 15.999 17.7721Z" fill="#282828" />
+                                    </svg>
+                                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M19.997 10.7764H17.9982V13.7745H19.4973C19.7971 13.7745 19.997 13.9744 19.997 14.2742V21.2698C19.997 21.5696 19.7971 21.7695 19.4973 21.7695H8.50416C8.20435 21.7695 8.00448 21.5696 8.00448 21.2698V14.2742C8.00448 13.9744 8.20435 13.7745 8.50416 13.7745H10.0032V10.7764H8.00448C6.30554 10.7764 5.00635 12.0756 5.00635 13.7745V21.7695C5.00635 23.4684 6.30554 24.7676 8.00448 24.7676H19.997C21.6959 24.7676 22.9951 23.4684 22.9951 21.7695V13.7745C22.9951 12.0756 21.6959 10.7764 19.997 10.7764Z" fill="#E7E7E7" />
+                                        <path d="M17.2981 8.7769C17.8977 8.7769 18.1975 8.07733 17.7978 7.57764L14.8996 4.67945C14.3999 4.17977 13.6004 4.17977 13.1007 4.67945L10.2025 7.57764C9.80278 8.07733 10.1026 8.7769 10.7022 8.7769H17.2981Z" fill="#E7E7E7" />
+                                        <path d="M15.999 17.7721V7.77832H12.0015V17.7721C12.0015 18.3717 12.4012 18.7715 13.0008 18.7715H14.9996C15.5992 18.7715 15.999 18.3717 15.999 17.7721Z" fill="#E7E7E7" />
+                                    </svg>
+                                </div>
+                                <span>Поделиться</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Account created end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

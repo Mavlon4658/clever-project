@@ -52,7 +52,7 @@
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center active">
                             <span class="icon position-relative">
                                 <img src="./assets/images/navs-icon-3.svg" alt="">
                                 <img src="./assets/images/navs-icon-3-dark.svg" alt="" class="dark-icon">
@@ -63,7 +63,7 @@
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center active">
+                        <a href="#" class="navs-link w-100 d-flex flex-column align-items-center text-center">
                             <span class="icon position-relative">
                                 <img src="./assets/images/navs-icon-4.svg" alt="">
                                 <img src="./assets/images/navs-icon-4-dark.svg" alt="" class="dark-icon">
@@ -79,124 +79,112 @@
         <!-- Navs end -->
 
         <!-- Profile -->
-        <section class="profile position-relative">
-            <div class="circle position-absolute start-50"></div>
-            <div class="container d-flex flex-column align-items-center">
-                <img src="./assets/images/avatar.png" alt="" class="profile-avatar rounded-circle mb-3">
-                <div class="w-100 profile-head d-flex flex-column align-items-center mb-3">
-                    <h2 class="fw-medium lh-1 text-center">Alex Kaste</h2>
-                    <a href="#" class="w-auto d-flex align-items-center justify-content-center fw-medium btn-linear sm">Обновить тариф</a>
-                </div>
-                <div class="profile-payment w-100 d-flex flex-column gap-3 mb-2">
-                    <div>
-                        <div class="text d-flex align-items-center justify-content-between">
-                            <h3 class="fs-6 fw-medium">Лимит платежей</h3>
-                            <div class="d-flex align-items-center gap-2">
-                                <h4 class="fs-6 fw-medium">
-                                    464 000<span>/500 000</span>
-                                </h4>
-                                <img src="./assets/images/warning-icon.svg" class="flex-shrink-0" alt="">
-                            </div>
-                        </div>
-                        <div class="line position-relative rounded-pill overflow-hidden">
-                            <span style="width: 92.8%;" class="position-absolute start-0 top-0 h-100"></span>
-                        </div>
-                    </div>
-                    <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">
-                        <img src="./assets/images/plus-icon.svg" class="flex-shrink-0" alt="">
-                        <img src="./assets/images/plus-icon-dark.svg" class="flex-shrink-0 dark-icon" alt="">
-                        <span>Приобрести платежи</span>
-                    </button>
-                </div>
-                <ul class="link-list d-flex flex-column gap-2 mb-4 w-100">
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-1.svg" alt="" class="flex-shrink-0">
-                                Основные настройки
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+        <section class="business position-relative">
+            <div class="container">
+                <h2 class="fw-medium lh-1 mb-4">Магазины и площадки</h2>
+                <ul class="business-navs d-flex align-items-center gap-2 py-2 px-3">
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center active">Все</a>
+                    </li>
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center">
+                            Ждут проверки
+                            <span class="d-flex align-items-center justify-content-center rounded-circle fw-medium">5</span>
                         </a>
                     </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-2.svg" alt="" class="flex-shrink-0">
-                                Настройка API
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center">
+                            Одобренные
                         </a>
                     </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-3.svg" alt="" class="flex-shrink-0">
-                                Безопасность
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-4.svg" alt="" class="flex-shrink-0">
-                                Активные сессии
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-5.svg" alt="" class="flex-shrink-0">
-                                KYC верификация
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-6.svg" alt="" class="flex-shrink-0">
-                                Реферальная программа
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="link-line w-100 flex-shrink-0"></li>
-                    <li>
-                        <a href="#" class="link-item fs-6 d-flex align-items-center justify-content-between gap-4">
-                            <span class="d-flex align-items-center">
-                                <img src="./assets/images/profile-link-7.svg" alt="" class="flex-shrink-0">
-                                Тарифы
-                            </span>
-                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center">
+                            Заблокированные
                         </a>
                     </li>
                 </ul>
-                <a href="#" class="log-out fs-6 d-flex align-items-center w-100">
-                    <img src="./assets/images/log-out.svg" alt="" class="flex-shrink-0">
-                    <span>Выйти из аккаунта</span>
-                </a>
+                <div class="d-flex flex-column gap-4 pt-3 w-100">
+                    <div class="d-flex flex-column gap-2 w-100">
+                        <label for="" class="fs-6">Площадки</label>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">
+                            <img src="./assets/images/plus-icon.svg" alt="" class="flex-shrink-0">
+                            <img src="./assets/images/plus-icon-dark.svg" alt="" class="flex-shrink-0 dark-icon">
+                            <span>Добавить</span>
+                        </button>
+                        <a href="#" class="business-link w-100 d-flex align-items-center justify-content-between p-3 gap-3">
+                            <img src="./assets/images/business-logo-1.svg" alt="" class="logo rounded-circle flex-shrink-0">
+                            <div class="w-100">
+                                <div class="business-link__title d-flex align-items-center gap-2 fs-6">
+                                    <b class="fw-medium">OZON</b>
+                                    ozon.ru
+                                </div>
+                            </div>
+                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#" class="business-link w-100 d-flex align-items-center justify-content-between p-3 gap-3">
+                            <img src="./assets/images/business-logo-2.svg" alt="" class="logo rounded-circle flex-shrink-0">
+                            <div class="w-100">
+                                <div class="business-link__title d-flex align-items-center gap-2 fs-6">
+                                    <b class="fw-medium">FunPay</b>
+                                    funpay.com
+                                </div>
+                            </div>
+                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column gap-2 w-100">
+                        <label for="" class="fs-6">Магазины</label>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary md">
+                            <img src="./assets/images/plus-icon.svg" alt="" class="flex-shrink-0">
+                            <img src="./assets/images/plus-icon-dark.svg" alt="" class="flex-shrink-0 dark-icon">
+                            <span>Добавить</span>
+                        </button>
+                        <a href="#" class="business-link w-100 d-flex align-items-center justify-content-between p-3 gap-3">
+                            <img src="./assets/images/business-logo-3.svg" alt="" class="logo rounded-circle flex-shrink-0">
+                            <div class="w-100">
+                                <div class="business-link__title d-flex align-items-center gap-2 fs-6">
+                                    <b class="fw-medium">Kupikod</b>
+                                    kupikod.com
+                                    <div class="dot rounded-circle flex-shrink-0"></div>
+                                </div>
+                                <span class="business-link__alert rounded-pill">Цифровые товары</span>
+                            </div>
+                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#" class="business-link w-100 d-flex align-items-center justify-content-between p-3 gap-3">
+                            <img src="./assets/images/business-logo-2.svg" alt="" class="logo rounded-circle flex-shrink-0">
+                            <div class="w-100">
+                                <div class="business-link__title d-flex align-items-center gap-2 fs-6">
+                                    <b class="fw-medium">FunPay</b>
+                                    funpay.com
+                                </div>
+                                <span class="business-link__alert rounded-pill">Цифровые товары</span>
+                            </div>
+                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#" class="business-link w-100 d-flex align-items-center justify-content-between p-3 gap-3">
+                            <img src="./assets/images/business-logo-2.svg" alt="" class="logo rounded-circle flex-shrink-0">
+                            <div class="w-100">
+                                <div class="business-link__title d-flex align-items-center gap-2 fs-6">
+                                    <b class="fw-medium">FunPay</b>
+                                    funpay.com
+                                </div>
+                                <span class="business-link__alert rounded-pill">Цифровые товары</span>
+                            </div>
+                            <svg class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L13.2929 11.2929C13.6834 11.6834 13.6834 12.3166 13.2929 12.7071L10 16" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Profile end -->

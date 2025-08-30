@@ -136,3 +136,8 @@ if (addWalletCard.length) {
         btn.onclick = () => inp.click();
     })
 }
+
+const statisticSwp = new Swiper('.store-statistic .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 4,
+})

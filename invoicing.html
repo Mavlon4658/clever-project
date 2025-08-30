@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Выставление счёта</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Invoicing -->
+        <section class="invoicing h-full d-flex">
+            <div class="container h-full d-flex flex-column justify-content-between pt-3 gap-4">
+                <div class="w-100 d-flex flex-column gap-3">
+                    <div class="w-100">
+                        <label for="" class="mb-2">Номер заказа</label>
+                        <input type="text" class="px-4 fs-6 border-0 form-inp" placeholder="Введите номер заказа">
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">Сумма платежа</label>
+                        <div class="form-price position-relative">
+                            <input type="text" placeholder="10" class="position-relative w-100 px-4 fs-6" inputmode="numeric" pattern="[0-9]*">
+                            <p class="px-3 position-absolute position-absolute end-0 top-50 translate-middle-y d-flex align-items-center fs-6">USDT</p>
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">Редирект URL</label>
+                        <input type="url" class="px-4 fs-6 border-0 form-inp" placeholder="https://example.com">
+                    </div>
+                    <div class="w-100">
+                        <label for="" class="mb-2">Проверять со скидкой</label>
+                        <div class="form-price position-relative">
+                            <input type="text" placeholder="0" class="position-relative w-100 px-4 fs-6" inputmode="numeric" pattern="[0-9]*">
+                            <p class="px-3 position-absolute position-absolute end-0 top-50 translate-middle-y d-flex align-items-center fs-6">%</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-primary">Создать счёт</button>
+            </div>
+        </section>
+        <!-- Invoicing end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

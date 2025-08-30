@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper d-flex flex-column justify-content-between">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Включенные платежи</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Included payments -->
+        <section class="included-payment h-full d-flex pt-3">
+            <div class="container h-full d-flex flex-column gap-2">
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-bitcoin.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Bitcoin</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-ethereum.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Ethereum</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-tether.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Tether</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-trc20.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">USDT <span>TRC-20</span></h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-erc20.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">USDT <span>ERC-20</span></h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-bnb20.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">USDT <span>BNB-20</span></h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-litecoin.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Litecoin</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" checked id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-binancecoin.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Binance Coin</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-usdcoin.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">USD Coin</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-avax.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Avax</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+                <div class="payment-card d-flex align-items-center justify-content-between rounded-pill">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/images/crypto-ripple.svg" width="28" height="28" class="rounded-circle object-fit-cover" alt="">
+                        <h3 class="fs-6 fw-medium">Ripple</h3>
+                    </div>
+                    <div class="form-checkbox flex-shrink-0 rounded-pill position-relative overflow-hidden">
+                        <input type="checkbox" name="" id="" class="position-absolute start-0 top-0 w-100 h-100">
+                        <span class="rounded-pill position-absolute"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Included payments end -->
+
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

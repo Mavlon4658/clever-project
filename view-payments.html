@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fotns -->
+    <link rel="stylesheet" href="./assets/fonts/nebulas/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFCompactText/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/nagel/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProDisplay/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/HelveticaNeue/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/SFProText/stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header main-header pb-4 flex-shrink-0">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="header-left d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex align-items-center justify-content-center btn-secondary header-btn">
+                        <img src="./assets/images/times.svg" alt="">
+                        <img src="./assets/images/times-dark.svg" alt="" class="dark-img">
+                    </a>
+                </div>
+                <h2 class="fw-medium fs-6 text-center">Просмотр платежей</h2>
+                <div class="header-right d-flex align-items-center justify-content-center"></div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- View payment -->
+        <section class="view-payment position-relative">
+            <div class="container">
+                <ul class="business-navs d-flex align-items-center gap-2 py-2 px-3">
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center active">Все</a>
+                    </li>
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center">Подтвержденные</a>
+                    </li>
+                    <li class="flex-shrink-0">
+                        <a href="#" class="fs-6 d-flex align-items-center">Отмененные</a>
+                    </li>
+                </ul>
+                <div class="d-flex flex-column gap-4 pt-3">
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-1.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Ожидает оплаты</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card success d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-2.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Подтверждено</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-3.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium d-flex align-items-center gap-2">
+                                    <span>Отменено</span>
+                                    <img src="./assets/images/alert-red.svg" width="20" alt="" class="flex-shrink-0">
+                                </h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-1.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Ожидает оплаты</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-4.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Создан</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card success d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-2.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Подтверждено</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card success d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-2.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Подтверждено</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-3.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium d-flex align-items-center gap-2">
+                                    <span>Отменено</span>
+                                    <img src="./assets/images/alert-red.svg" width="20" alt="" class="flex-shrink-0">
+                                </h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-1.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Ожидает оплаты</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-3.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium d-flex align-items-center gap-2">
+                                    <span>Отменено</span>
+                                    <img src="./assets/images/alert-red.svg" width="20" alt="" class="flex-shrink-0">
+                                </h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                    <div class="view-payment__card d-flex align-items-center justify-content-between gap-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#showPayment" aria-controls="showPayment">
+                        <div class="view-payment__card-right d-flex align-items-center">
+                            <img src="./assets/images/payment-card-icon-1.svg" width="40" height="40" alt="" class="flex-shrink-0 rounded-circle object-fit-cover">
+                            <div class="ps-2 ms-1">
+                                <h3 class="fw-medium">Ожидает оплаты</h3>
+                                <p>4 дек. 2024 16:56</p>
+                            </div>
+                        </div>
+                        <div class="view-payment__card-right d-flex flex-column align-items-end text-end">
+                            <b class="fw-normal">1.28 USDT</b>
+                            #17558
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- View payment end -->
+
+        <!-- Show payment modal -->
+        <div class="offcanvas offcanvas-bottom border-0 main-modal payment-modal" tabindex="-1" id="showPayment" aria-labelledby="showPaymentLabel">
+            <div class="offcanvas-body">
+                <div class="container d-flex flex-column gap-4">
+                    <h2 class="fw-medium lh-1">Платёж #17704</h2>
+                    <div class="w-100 d-flex flex-column gap-2">
+                        <div class="alert-red d-flex align-items-center">
+                            <img src="./assets/images/alert-circle.svg" width="20" alt="" class="flex-shrink-0">
+                            <p>Не хватило промежуточной комиссии для перевода</p>
+                        </div>
+                        <div class="row w-100 g-2">
+                            <div class="col-12">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Номер заказа</p>
+                                    <h4 class="fw-medium">f9e65ef73f9a90e1d9d3ba2728daf0ba</h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">ID платежа</p>
+                                    <h4 class="fs-6 fw-medium">#17558</h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Статус</p>
+                                    <h4 class="fs-6 fw-medium d-flex align-items-center">
+                                        <img src="./assets/images/times-red-circle.svg" width="24" alt="" class="flex-shrink-0">
+                                        <span>Отклонён</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Дата создания</p>
+                                    <h4 class="fs-6 fw-medium d-flex align-items-center">14 сен. 2025 16:25</h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Сумма</p>
+                                    <h4 class="fs-6 fw-medium">
+                                        1.28 USDT <span class="text-gray">BEP-20</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Погрешность</p>
+                                    <h4 class="fs-6 fw-medium d-flex align-items-center">1.00%</h4>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="payment-modal__card d-flex flex-column align-items-start">
+                                    <p class="fs-6">Комиссия сети</p>
+                                    <h4 class="fs-6 fw-medium d-flex align-items-center">1.00 USDT</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex flex-column btns">
+                        <button class="w-100 d-flex align-items-center justify-content-center fw-medium btn-neutral">
+                            <img src="./assets/images/payment-modal-btn-icon-1.svg" alt="" class="flex-shrink-0">
+                            <span>Перевести средства</span>
+                        </button>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-center btn-secondary">
+                            <img src="./assets/images/payment-modal-btn-icon-2.svg" alt="" class="flex-shrink-0">
+                            <span>Отправить callback</span>
+                        </button>
+                        <button class="w-100 d-flex align-items-center justify-content-center btn-space" type="button" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Show payment modal end -->
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
