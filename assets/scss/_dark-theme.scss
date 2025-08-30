@@ -1084,6 +1084,12 @@
                     stroke: $color-additional-gray-700;
                 }
             }
+
+            &__dagree {
+                b {
+                    color: $color-main-light;
+                }
+            }
         }
     }
 

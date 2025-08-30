@@ -1825,7 +1825,7 @@ button, input, textarea, li, div {
 .business-link__dagree b {
   line-height: 137%;
   letter-spacing: 0.03em;
-  color: #e7e7e7;
+  color: #282828;
 }
 .business-link__dagree span {
   line-height: 137%;
@@ -2983,6 +2983,9 @@ button, input, textarea, li, div {
 }
 .dark-theme .business-link__bottom svg circle:nth-child(1) {
   stroke: #495057;
+}
+.dark-theme .business-link__dagree b {
+  color: #e7e7e7;
 }
 .dark-theme .profile-store__head h3 {
   color: #e7e7e7;
